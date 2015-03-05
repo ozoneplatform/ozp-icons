@@ -4,7 +4,9 @@
   "description": "SVG icons for OZP with a spriting build system",
   "main": "index.js",
   "dependencies": {
+    "bluebird": "^2.9.13",
     "directory-colorfy": "2.0.1",
+    "fs-extra": "^0.16.4",
     "gulp": "3.8.11",
     "gulp-svg-sprite": "1.0.18"
   },

@@ -1,12 +1,25 @@
 'use strict';
 
+var colors = require('./colors.json');
 var gulp = require('gulp');
 var svgSprite = require('gulp-svg-sprite');
 var DirectoryColorfy = require('directory-colorfy');
+var path = require('path');
+var fs = require('fs-extra');
+var Promise = require('bluebird');
+var copy = Promise.promisify(fs.copy, fs);
+
+var SRC_SVG = 'svg';
+var TEMP_COLORFY_DIR = 'svg-colorfy'; // gitignored
 
 var svgConfig = {
+    log: 'info',
     mode: {
         css: {
+            prefix: '.icon-',
+            dimensions: true,
+            example: true,
+            bust: true,
             render: { css: true }
         }
     }
@@ -14,40 +27,27 @@ var svgConfig = {
 
 var colorConfig = {
     dynamicColorOnly: true,
-    colors: {
-        'black': '#191f25',
-        'blue': '#009dd3',
-        'blue-dark': '#087399',
-        'blue-darker': '#0e5772',
-        'blue-light': '#71c9e7',
-        'blue-lighter': '#c6e9f5',
-        'gray': '#8f9194',
-        'gray-base': '#191f25',
-        'gray-dark': '#4c5457',
-        'gray-darker': '#3b4246',
-        'gray-darkest': '#293035',
-        'gray-light': '#b5b6b8',
-        'gray-lighter': '#dbdcdd',
-        'gray-lightest': '#eeeeef',
-        'green': '#5a9e5a',
-        'green-dark': '#487a4b',
-        'orange': '#f59d4c',
-        'pink': '#b32a5f',
-        'purple': '#814481',
-        'Red': '#c62a3d',
-        'Red-orange': '#d45a28',
-        'Red-orange-dark': '#ad4e27',
-        'teal': '#32838c',
-        'white': '#ffffff',
-        'yellow': '#ecc44d'
-    }
+    colors: colors
 };
 
-gulp.task('default', function() {
-    var colorfy = new DirectoryColorfy('image-source', 'image-colors', colorConfig);
-    colorfy.convert().then(function() {
-        gulp.src('image-colors/*.svg')
-              .pipe(svgSprite(svgConfig))
-              .pipe(gulp.dest('dist'));
+function copyAndRenameSrcFiles () {
+    var src = fs.readdirSync(SRC_SVG);
+    var target = src.map(function (file) {
+        return TEMP_COLORFY_DIR + '/' + file.replace(/colors-.*/, 'svg');
     });
+
+    return Promise.all(src.map(function (file, index) {
+        return copy(SRC_SVG + '/' + file, target[index])
+    }));
+}
+
+var colorfy = new DirectoryColorfy(SRC_SVG, TEMP_COLORFY_DIR, colorConfig);
+
+gulp.task('default', function() {
+    return Promise.all([copyAndRenameSrcFiles(), colorfy.convert()])
+        .then(function() {
+            gulp.src([TEMP_COLORFY_DIR + '/*.svg'])
+                .pipe(svgSprite(svgConfig))
+                .pipe(gulp.dest('dist'));
+        });
 });
