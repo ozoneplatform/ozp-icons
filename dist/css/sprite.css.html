@@ -1,0 +1,2197 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+		<title>SVG CSS sprite preview | svg-sprite</title>
+		<style>@charset "UTF-8";body{padding:0;margin:0;color:#666;background:#fafafa;font-family:Arial,Helvetica,sans-serif;font-size:1em;line-height:1.4}header{display:block;padding:3em 3em 2em 3em;background-color:#fff}header p{margin:2em 0 0 0}section{border-top:1px solid #eee;padding:2em 3em 0 3em}section ul{margin:0;padding:0}section li{display:inline;display:inline-block;background-color:#fff;position:relative;margin:0 2em 2em 0;vertical-align:top;border:1px solid #ccc;padding:1em 1em 3em 1em;cursor:default}.icon-box{margin:0;width:144px;height:144px;position:relative;background:#ccc url(data:image/gif;base64,R0lGODlhDAAMAIAAAMzMzP///yH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjEgNjQuMTQwOTQ5LCAyMDEwLzEyLzA3LTEwOjU3OjAxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1LjEgV2luZG93cyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozQjk4OTI0MUY5NTIxMUUyQkJDMEI5NEFEM0Y1QTYwQyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozQjk4OTI0MkY5NTIxMUUyQkJDMEI5NEFEM0Y1QTYwQyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjNCOTg5MjNGRjk1MjExRTJCQkMwQjk0QUQzRjVBNjBDIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjNCOTg5MjQwRjk1MjExRTJCQkMwQjk0QUQzRjVBNjBDIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Af/+/fz7+vn49/b19PPy8fDv7u3s6+rp6Ofm5eTj4uHg397d3Nva2djX1tXU09LR0M/OzczLysnIx8bFxMPCwcC/vr28u7q5uLe2tbSzsrGwr66trKuqqainpqWko6KhoJ+enZybmpmYl5aVlJOSkZCPjo2Mi4qJiIeGhYSDgoGAf359fHt6eXh3dnV0c3JxcG9ubWxramloZ2ZlZGNiYWBfXl1cW1pZWFdWVVRTUlFQT05NTEtKSUhHRkVEQ0JBQD8+PTw7Ojk4NzY1NDMyMTAvLi0sKyopKCcmJSQjIiEgHx4dHBsaGRgXFhUUExIREA8ODQwLCgkIBwYFBAMCAQAAIfkEAAAAAAAsAAAAAAwADAAAAhaEH6mHmmzcgzJAUG/NVGrfOZ8YLlABADs=) top left repeat;border:1px solid #ccc;display:table-cell;vertical-align:middle;text-align:center}.icon{display:inline;display:inline-block}h1{margin-top:0}h2{margin:0;padding:0;font-size:1em;font-weight:normal;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;position:absolute;left:1em;right:1em;bottom:1em}footer{display:block;margin:0;padding:0 3em 3em 3em}footer p{margin:0;font-size:.7em}footer a{color:#0f7595;margin-left:0}</style>
+		<style>i{text-indent:200%;white-space:nowrap;overflow:hidden;display:inline-block}</style>
+		
+<!--
+	
+Sprite CSS
+====================================================================================================
+This is an all-in-one inline version of the CSS necessary to use the SVG sprite. 
+
+-->
+
+<style type="text/css">
+.icon-arrow-right {
+	background: url(svg/sprite.css-7b6f3536.svg) 8.333333333333334% 0 no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-arrow-right-grayLightest {
+	background: url(svg/sprite.css-7b6f3536.svg) 33.333333333333336% 72.72727272727273% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-arrow-right-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 0 9.090909090909092% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-bar-graph-2 {
+	background: url(svg/sprite.css-7b6f3536.svg) 8.333333333333334% 9.090909090909092% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-bar-graph-2-grayLightest {
+	background: url(svg/sprite.css-7b6f3536.svg) 16.666666666666668% 0 no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-bar-graph-2-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 16.666666666666668% 9.090909090909092% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-bell {
+	background: url(svg/sprite.css-7b6f3536.svg) 0 18.181818181818183% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-bell-filled {
+	background: url(svg/sprite.css-7b6f3536.svg) 8.333333333333334% 18.181818181818183% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-bell-filled-blue {
+	background: url(svg/sprite.css-7b6f3536.svg) 16.666666666666668% 18.181818181818183% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-bell-grayLightest {
+	background: url(svg/sprite.css-7b6f3536.svg) 25% 0 no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-bell-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 25% 9.090909090909092% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-caret-down {
+	background: url(svg/sprite.css-7b6f3536.svg) 25% 18.181818181818183% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-caret-down-blue {
+	background: url(svg/sprite.css-7b6f3536.svg) 0 27.272727272727273% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-caret-down-grayDark {
+	background: url(svg/sprite.css-7b6f3536.svg) 8.333333333333334% 27.272727272727273% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-caret-down-grayLightest {
+	background: url(svg/sprite.css-7b6f3536.svg) 16.666666666666668% 27.272727272727273% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-caret-down-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 25% 27.272727272727273% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-caret-left {
+	background: url(svg/sprite.css-7b6f3536.svg) 33.333333333333336% 0 no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-caret-left-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 33.333333333333336% 9.090909090909092% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-caret-right {
+	background: url(svg/sprite.css-7b6f3536.svg) 33.333333333333336% 18.181818181818183% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-caret-right-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 33.333333333333336% 27.272727272727273% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-caret-up {
+	background: url(svg/sprite.css-7b6f3536.svg) 0 36.36363636363637% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-caret-up-grayLightest {
+	background: url(svg/sprite.css-7b6f3536.svg) 8.333333333333334% 36.36363636363637% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-caret-up-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 16.666666666666668% 36.36363636363637% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-check {
+	background: url(svg/sprite.css-7b6f3536.svg) 25% 36.36363636363637% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-check-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 33.333333333333336% 36.36363636363637% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-circle-check {
+	background: url(svg/sprite.css-7b6f3536.svg) 41.666666666666664% 0 no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-circle-check-green {
+	background: url(svg/sprite.css-7b6f3536.svg) 41.666666666666664% 9.090909090909092% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-cloud {
+	background: url(svg/sprite.css-7b6f3536.svg) 41.666666666666664% 18.181818181818183% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-cloud-grayLightest {
+	background: url(svg/sprite.css-7b6f3536.svg) 41.666666666666664% 27.272727272727273% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-cloud-upload {
+	background: url(svg/sprite.css-7b6f3536.svg) 41.666666666666664% 36.36363636363637% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-cloud-upload-grayDark {
+	background: url(svg/sprite.css-7b6f3536.svg) 0 45.45454545454545% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-cloud-upload-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 8.333333333333334% 45.45454545454545% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-cloud-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 16.666666666666668% 45.45454545454545% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-cog {
+	background: url(svg/sprite.css-7b6f3536.svg) 25% 45.45454545454545% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-cog-grayLightest {
+	background: url(svg/sprite.css-7b6f3536.svg) 33.333333333333336% 45.45454545454545% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-cog-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 41.666666666666664% 45.45454545454545% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-cross {
+	background: url(svg/sprite.css-7b6f3536.svg) 50% 0 no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-cross-grayDark {
+	background: url(svg/sprite.css-7b6f3536.svg) 50% 9.090909090909092% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-cross-grayDarker {
+	background: url(svg/sprite.css-7b6f3536.svg) 50% 18.181818181818183% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-cross-grayLightest {
+	background: url(svg/sprite.css-7b6f3536.svg) 50% 27.272727272727273% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-cross-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 50% 36.36363636363637% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-exclamation {
+	background: url(svg/sprite.css-7b6f3536.svg) 50% 45.45454545454545% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-exclamation-grayDark {
+	background: url(svg/sprite.css-7b6f3536.svg) 0 54.54545454545455% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-exclamation-redOrangeDark {
+	background: url(svg/sprite.css-7b6f3536.svg) 8.333333333333334% 54.54545454545455% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-eye {
+	background: url(svg/sprite.css-7b6f3536.svg) 16.666666666666668% 54.54545454545455% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-eye-grayDark {
+	background: url(svg/sprite.css-7b6f3536.svg) 25% 54.54545454545455% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-eye-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 33.333333333333336% 54.54545454545455% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-fast-forward {
+	background: url(svg/sprite.css-7b6f3536.svg) 41.666666666666664% 54.54545454545455% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-fast-forward-grayLightest {
+	background: url(svg/sprite.css-7b6f3536.svg) 50% 54.54545454545455% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-fast-forward-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 58.333333333333336% 0 no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-grid {
+	background: url(svg/sprite.css-7b6f3536.svg) 58.333333333333336% 9.090909090909092% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-grid-grayLightest {
+	background: url(svg/sprite.css-7b6f3536.svg) 58.333333333333336% 18.181818181818183% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-grid-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 58.333333333333336% 27.272727272727273% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-head {
+	background: url(svg/sprite.css-7b6f3536.svg) 58.333333333333336% 36.36363636363637% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-head-grayLightest {
+	background: url(svg/sprite.css-7b6f3536.svg) 58.333333333333336% 45.45454545454545% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-head-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 58.333333333333336% 54.54545454545455% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-home {
+	background: url(svg/sprite.css-7b6f3536.svg) 0 63.63636363636363% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-home-blue {
+	background: url(svg/sprite.css-7b6f3536.svg) 8.333333333333334% 63.63636363636363% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-home-grayLightest {
+	background: url(svg/sprite.css-7b6f3536.svg) 16.666666666666668% 63.63636363636363% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-home-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 25% 63.63636363636363% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-layers {
+	background: url(svg/sprite.css-7b6f3536.svg) 33.333333333333336% 63.63636363636363% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-layers-grayDark {
+	background: url(svg/sprite.css-7b6f3536.svg) 41.666666666666664% 63.63636363636363% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-layers-grayLightest {
+	background: url(svg/sprite.css-7b6f3536.svg) 50% 63.63636363636363% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-layers-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 58.333333333333336% 63.63636363636363% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-layout {
+	background: url(svg/sprite.css-7b6f3536.svg) 66.66666666666667% 0 no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-layout-blue {
+	background: url(svg/sprite.css-7b6f3536.svg) 66.66666666666667% 9.090909090909092% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-layout-grayLightest {
+	background: url(svg/sprite.css-7b6f3536.svg) 66.66666666666667% 18.181818181818183% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-layout-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 66.66666666666667% 27.272727272727273% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-loader {
+	background: url(svg/sprite.css-7b6f3536.svg) 66.66666666666667% 36.36363636363637% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-loader-blueDark {
+	background: url(svg/sprite.css-7b6f3536.svg) 66.66666666666667% 45.45454545454545% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-loader-grayDark {
+	background: url(svg/sprite.css-7b6f3536.svg) 66.66666666666667% 54.54545454545455% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-maximize {
+	background: url(svg/sprite.css-7b6f3536.svg) 66.66666666666667% 63.63636363636363% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-maximize-grayLightest {
+	background: url(svg/sprite.css-7b6f3536.svg) 0 72.72727272727273% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-maximize-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 8.333333333333334% 72.72727272727273% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-menu {
+	background: url(svg/sprite.css-7b6f3536.svg) 16.666666666666668% 72.72727272727273% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-menu-blue {
+	background: url(svg/sprite.css-7b6f3536.svg) 25% 72.72727272727273% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-menu-grayLightest {
+	background: url(svg/sprite.css-7b6f3536.svg) 0 0 no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-menu-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 41.666666666666664% 72.72727272727273% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-minimize {
+	background: url(svg/sprite.css-7b6f3536.svg) 50% 72.72727272727273% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-minimize-grayLightest {
+	background: url(svg/sprite.css-7b6f3536.svg) 58.333333333333336% 72.72727272727273% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-minimize-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 66.66666666666667% 72.72727272727273% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-minus {
+	background: url(svg/sprite.css-7b6f3536.svg) 75% 0 no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-minus-grayLightest {
+	background: url(svg/sprite.css-7b6f3536.svg) 75% 9.090909090909092% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-minus-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 75% 18.181818181818183% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-open {
+	background: url(svg/sprite.css-7b6f3536.svg) 75% 27.272727272727273% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-open-grayDark {
+	background: url(svg/sprite.css-7b6f3536.svg) 75% 36.36363636363637% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-open-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 75% 45.45454545454545% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-paper {
+	background: url(svg/sprite.css-7b6f3536.svg) 75% 54.54545454545455% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-paper-grayDark {
+	background: url(svg/sprite.css-7b6f3536.svg) 75% 63.63636363636363% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-pencil {
+	background: url(svg/sprite.css-7b6f3536.svg) 75% 72.72727272727273% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-pencil-grayDark {
+	background: url(svg/sprite.css-7b6f3536.svg) 0 81.81818181818181% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-pencil-grayLightest {
+	background: url(svg/sprite.css-7b6f3536.svg) 8.333333333333334% 81.81818181818181% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-pencil-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 16.666666666666668% 81.81818181818181% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-plus {
+	background: url(svg/sprite.css-7b6f3536.svg) 25% 81.81818181818181% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-plus-grayLightest {
+	background: url(svg/sprite.css-7b6f3536.svg) 33.333333333333336% 81.81818181818181% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-plus-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 41.666666666666664% 81.81818181818181% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-question {
+	background: url(svg/sprite.css-7b6f3536.svg) 50% 81.81818181818181% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-question-grayLightest {
+	background: url(svg/sprite.css-7b6f3536.svg) 58.333333333333336% 81.81818181818181% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-question-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 66.66666666666667% 81.81818181818181% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-reload {
+	background: url(svg/sprite.css-7b6f3536.svg) 75% 81.81818181818181% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-reload-blueDark {
+	background: url(svg/sprite.css-7b6f3536.svg) 83.33333333333333% 0 no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-reload-grayDark {
+	background: url(svg/sprite.css-7b6f3536.svg) 83.33333333333333% 9.090909090909092% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-rewind {
+	background: url(svg/sprite.css-7b6f3536.svg) 83.33333333333333% 18.181818181818183% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-rewind-grayLightest {
+	background: url(svg/sprite.css-7b6f3536.svg) 83.33333333333333% 27.272727272727273% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-rewind-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 83.33333333333333% 36.36363636363637% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-ribbon {
+	background: url(svg/sprite.css-7b6f3536.svg) 83.33333333333333% 45.45454545454545% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-ribbon-filled {
+	background: url(svg/sprite.css-7b6f3536.svg) 83.33333333333333% 54.54545454545455% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-ribbon-filled-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 83.33333333333333% 63.63636363636363% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-ribbon-filled-yellow {
+	background: url(svg/sprite.css-7b6f3536.svg) 83.33333333333333% 72.72727272727273% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-ribbon-grayDark {
+	background: url(svg/sprite.css-7b6f3536.svg) 83.33333333333333% 81.81818181818181% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-ribbon-grayLightest {
+	background: url(svg/sprite.css-7b6f3536.svg) 0 90.9090909090909% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-ribbon-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 8.333333333333334% 90.9090909090909% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-save {
+	background: url(svg/sprite.css-7b6f3536.svg) 16.666666666666668% 90.9090909090909% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-save-grayDark {
+	background: url(svg/sprite.css-7b6f3536.svg) 25% 90.9090909090909% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-save-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 33.333333333333336% 90.9090909090909% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-search {
+	background: url(svg/sprite.css-7b6f3536.svg) 41.666666666666664% 90.9090909090909% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-search-grayDark {
+	background: url(svg/sprite.css-7b6f3536.svg) 50% 90.9090909090909% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-search-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 58.333333333333336% 90.9090909090909% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-shopping {
+	background: url(svg/sprite.css-7b6f3536.svg) 66.66666666666667% 90.9090909090909% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-shopping-blue {
+	background: url(svg/sprite.css-7b6f3536.svg) 75% 90.9090909090909% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-shopping-grayLightest {
+	background: url(svg/sprite.css-7b6f3536.svg) 83.33333333333333% 90.9090909090909% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-shopping-settings {
+	background: url(svg/sprite.css-7b6f3536.svg) 91.66666666666667% 0 no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-shopping-settings-grayLightest {
+	background: url(svg/sprite.css-7b6f3536.svg) 91.66666666666667% 9.090909090909092% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-shopping-settings-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 91.66666666666667% 18.181818181818183% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-shopping-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 91.66666666666667% 27.272727272727273% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-square-plus {
+	background: url(svg/sprite.css-7b6f3536.svg) 91.66666666666667% 36.36363636363637% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-square-plus-grayLightest {
+	background: url(svg/sprite.css-7b6f3536.svg) 91.66666666666667% 45.45454545454545% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-square-plus-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 91.66666666666667% 54.54545454545455% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-stack {
+	background: url(svg/sprite.css-7b6f3536.svg) 91.66666666666667% 63.63636363636363% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-stack-grayLightest {
+	background: url(svg/sprite.css-7b6f3536.svg) 91.66666666666667% 72.72727272727273% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-stack-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 91.66666666666667% 81.81818181818181% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-star {
+	background: url(svg/sprite.css-7b6f3536.svg) 91.66666666666667% 90.9090909090909% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-star-filled {
+	background: url(svg/sprite.css-7b6f3536.svg) 0 100% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-star-filled-grayLighter {
+	background: url(svg/sprite.css-7b6f3536.svg) 8.333333333333334% 100% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-star-filled-yellow {
+	background: url(svg/sprite.css-7b6f3536.svg) 16.666666666666668% 100% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-star-grayLighter {
+	background: url(svg/sprite.css-7b6f3536.svg) 25% 100% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-star-half-filled {
+	background: url(svg/sprite.css-7b6f3536.svg) 33.333333333333336% 100% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-star-half-filled-grayLighter {
+	background: url(svg/sprite.css-7b6f3536.svg) 41.666666666666664% 100% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-star-half-filled-yellow {
+	background: url(svg/sprite.css-7b6f3536.svg) 50% 100% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-star-halved {
+	background: url(svg/sprite.css-7b6f3536.svg) 56% 100% no-repeat;
+	width: 16px;
+	height: 32px;
+}
+.icon-star-halved-grayLighter {
+	background: url(svg/sprite.css-7b6f3536.svg) 60% 100% no-repeat;
+	width: 16px;
+	height: 32px;
+}
+.icon-star-halved-yellow {
+	background: url(svg/sprite.css-7b6f3536.svg) 64% 100% no-repeat;
+	width: 16px;
+	height: 32px;
+}
+.icon-star-yellow {
+	background: url(svg/sprite.css-7b6f3536.svg) 70.83333333333333% 100% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-thumbs-up {
+	background: url(svg/sprite.css-7b6f3536.svg) 79.16666666666667% 100% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-thumbs-up-grayDark {
+	background: url(svg/sprite.css-7b6f3536.svg) 87.5% 100% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-thumbs-up-greenDark {
+	background: url(svg/sprite.css-7b6f3536.svg) 100% 0 no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-trash {
+	background: url(svg/sprite.css-7b6f3536.svg) 100% 9.090909090909092% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-trash-blue {
+	background: url(svg/sprite.css-7b6f3536.svg) 100% 18.181818181818183% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-trash-grayDark {
+	background: url(svg/sprite.css-7b6f3536.svg) 100% 27.272727272727273% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-trash-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 100% 36.36363636363637% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-wrench {
+	background: url(svg/sprite.css-7b6f3536.svg) 100% 45.45454545454545% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-wrench-grayLightest {
+	background: url(svg/sprite.css-7b6f3536.svg) 100% 54.54545454545455% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.icon-wrench-white {
+	background: url(svg/sprite.css-7b6f3536.svg) 100% 63.63636363636363% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+</style>
+
+<!--
+====================================================================================================
+-->
+
+	</head>
+	<body>
+		<header>
+			<h1>SVG CSS sprite preview</h1>
+			<p>This preview features the generated SVG file as a conventional CSS sprite. The shapes are displayed as background images of several <code>&lt;i&gt;</code> elements.</p>
+		</header>
+		<section>
+			
+<!--
+	
+Conventional CSS sprite
+====================================================================================================
+This technique uses CSS classes to display portions of the sprite as background image of
+appropriately sized elements.
+
+-->
+
+			<ul>
+				
+				<li title="arrow-right">
+					<div class="icon-box">
+						
+						<!-- arrow-right -->
+						<i class="icon-arrow-right">arrow-right</i>
+						
+					</div>
+					<h2>arrow-right</h2>
+				</li>
+				<li title="arrow-right-grayLightest">
+					<div class="icon-box">
+						
+						<!-- arrow-right-grayLightest -->
+						<i class="icon-arrow-right-grayLightest">arrow-right-grayLightest</i>
+						
+					</div>
+					<h2>arrow-right-grayLightest</h2>
+				</li>
+				<li title="arrow-right-white">
+					<div class="icon-box">
+						
+						<!-- arrow-right-white -->
+						<i class="icon-arrow-right-white">arrow-right-white</i>
+						
+					</div>
+					<h2>arrow-right-white</h2>
+				</li>
+				<li title="bar-graph-2">
+					<div class="icon-box">
+						
+						<!-- bar-graph-2 -->
+						<i class="icon-bar-graph-2">bar-graph-2</i>
+						
+					</div>
+					<h2>bar-graph-2</h2>
+				</li>
+				<li title="bar-graph-2-grayLightest">
+					<div class="icon-box">
+						
+						<!-- bar-graph-2-grayLightest -->
+						<i class="icon-bar-graph-2-grayLightest">bar-graph-2-grayLightest</i>
+						
+					</div>
+					<h2>bar-graph-2-grayLightest</h2>
+				</li>
+				<li title="bar-graph-2-white">
+					<div class="icon-box">
+						
+						<!-- bar-graph-2-white -->
+						<i class="icon-bar-graph-2-white">bar-graph-2-white</i>
+						
+					</div>
+					<h2>bar-graph-2-white</h2>
+				</li>
+				<li title="bell">
+					<div class="icon-box">
+						
+						<!-- bell -->
+						<i class="icon-bell">bell</i>
+						
+					</div>
+					<h2>bell</h2>
+				</li>
+				<li title="bell-filled">
+					<div class="icon-box">
+						
+						<!-- bell-filled -->
+						<i class="icon-bell-filled">bell-filled</i>
+						
+					</div>
+					<h2>bell-filled</h2>
+				</li>
+				<li title="bell-filled-blue">
+					<div class="icon-box">
+						
+						<!-- bell-filled-blue -->
+						<i class="icon-bell-filled-blue">bell-filled-blue</i>
+						
+					</div>
+					<h2>bell-filled-blue</h2>
+				</li>
+				<li title="bell-grayLightest">
+					<div class="icon-box">
+						
+						<!-- bell-grayLightest -->
+						<i class="icon-bell-grayLightest">bell-grayLightest</i>
+						
+					</div>
+					<h2>bell-grayLightest</h2>
+				</li>
+				<li title="bell-white">
+					<div class="icon-box">
+						
+						<!-- bell-white -->
+						<i class="icon-bell-white">bell-white</i>
+						
+					</div>
+					<h2>bell-white</h2>
+				</li>
+				<li title="caret-down">
+					<div class="icon-box">
+						
+						<!-- caret-down -->
+						<i class="icon-caret-down">caret-down</i>
+						
+					</div>
+					<h2>caret-down</h2>
+				</li>
+				<li title="caret-down-blue">
+					<div class="icon-box">
+						
+						<!-- caret-down-blue -->
+						<i class="icon-caret-down-blue">caret-down-blue</i>
+						
+					</div>
+					<h2>caret-down-blue</h2>
+				</li>
+				<li title="caret-down-grayDark">
+					<div class="icon-box">
+						
+						<!-- caret-down-grayDark -->
+						<i class="icon-caret-down-grayDark">caret-down-grayDark</i>
+						
+					</div>
+					<h2>caret-down-grayDark</h2>
+				</li>
+				<li title="caret-down-grayLightest">
+					<div class="icon-box">
+						
+						<!-- caret-down-grayLightest -->
+						<i class="icon-caret-down-grayLightest">caret-down-grayLightest</i>
+						
+					</div>
+					<h2>caret-down-grayLightest</h2>
+				</li>
+				<li title="caret-down-white">
+					<div class="icon-box">
+						
+						<!-- caret-down-white -->
+						<i class="icon-caret-down-white">caret-down-white</i>
+						
+					</div>
+					<h2>caret-down-white</h2>
+				</li>
+				<li title="caret-left">
+					<div class="icon-box">
+						
+						<!-- caret-left -->
+						<i class="icon-caret-left">caret-left</i>
+						
+					</div>
+					<h2>caret-left</h2>
+				</li>
+				<li title="caret-left-white">
+					<div class="icon-box">
+						
+						<!-- caret-left-white -->
+						<i class="icon-caret-left-white">caret-left-white</i>
+						
+					</div>
+					<h2>caret-left-white</h2>
+				</li>
+				<li title="caret-right">
+					<div class="icon-box">
+						
+						<!-- caret-right -->
+						<i class="icon-caret-right">caret-right</i>
+						
+					</div>
+					<h2>caret-right</h2>
+				</li>
+				<li title="caret-right-white">
+					<div class="icon-box">
+						
+						<!-- caret-right-white -->
+						<i class="icon-caret-right-white">caret-right-white</i>
+						
+					</div>
+					<h2>caret-right-white</h2>
+				</li>
+				<li title="caret-up">
+					<div class="icon-box">
+						
+						<!-- caret-up -->
+						<i class="icon-caret-up">caret-up</i>
+						
+					</div>
+					<h2>caret-up</h2>
+				</li>
+				<li title="caret-up-grayLightest">
+					<div class="icon-box">
+						
+						<!-- caret-up-grayLightest -->
+						<i class="icon-caret-up-grayLightest">caret-up-grayLightest</i>
+						
+					</div>
+					<h2>caret-up-grayLightest</h2>
+				</li>
+				<li title="caret-up-white">
+					<div class="icon-box">
+						
+						<!-- caret-up-white -->
+						<i class="icon-caret-up-white">caret-up-white</i>
+						
+					</div>
+					<h2>caret-up-white</h2>
+				</li>
+				<li title="check">
+					<div class="icon-box">
+						
+						<!-- check -->
+						<i class="icon-check">check</i>
+						
+					</div>
+					<h2>check</h2>
+				</li>
+				<li title="check-white">
+					<div class="icon-box">
+						
+						<!-- check-white -->
+						<i class="icon-check-white">check-white</i>
+						
+					</div>
+					<h2>check-white</h2>
+				</li>
+				<li title="circle-check">
+					<div class="icon-box">
+						
+						<!-- circle-check -->
+						<i class="icon-circle-check">circle-check</i>
+						
+					</div>
+					<h2>circle-check</h2>
+				</li>
+				<li title="circle-check-green">
+					<div class="icon-box">
+						
+						<!-- circle-check-green -->
+						<i class="icon-circle-check-green">circle-check-green</i>
+						
+					</div>
+					<h2>circle-check-green</h2>
+				</li>
+				<li title="cloud">
+					<div class="icon-box">
+						
+						<!-- cloud -->
+						<i class="icon-cloud">cloud</i>
+						
+					</div>
+					<h2>cloud</h2>
+				</li>
+				<li title="cloud-grayLightest">
+					<div class="icon-box">
+						
+						<!-- cloud-grayLightest -->
+						<i class="icon-cloud-grayLightest">cloud-grayLightest</i>
+						
+					</div>
+					<h2>cloud-grayLightest</h2>
+				</li>
+				<li title="cloud-upload">
+					<div class="icon-box">
+						
+						<!-- cloud-upload -->
+						<i class="icon-cloud-upload">cloud-upload</i>
+						
+					</div>
+					<h2>cloud-upload</h2>
+				</li>
+				<li title="cloud-upload-grayDark">
+					<div class="icon-box">
+						
+						<!-- cloud-upload-grayDark -->
+						<i class="icon-cloud-upload-grayDark">cloud-upload-grayDark</i>
+						
+					</div>
+					<h2>cloud-upload-grayDark</h2>
+				</li>
+				<li title="cloud-upload-white">
+					<div class="icon-box">
+						
+						<!-- cloud-upload-white -->
+						<i class="icon-cloud-upload-white">cloud-upload-white</i>
+						
+					</div>
+					<h2>cloud-upload-white</h2>
+				</li>
+				<li title="cloud-white">
+					<div class="icon-box">
+						
+						<!-- cloud-white -->
+						<i class="icon-cloud-white">cloud-white</i>
+						
+					</div>
+					<h2>cloud-white</h2>
+				</li>
+				<li title="cog">
+					<div class="icon-box">
+						
+						<!-- cog -->
+						<i class="icon-cog">cog</i>
+						
+					</div>
+					<h2>cog</h2>
+				</li>
+				<li title="cog-grayLightest">
+					<div class="icon-box">
+						
+						<!-- cog-grayLightest -->
+						<i class="icon-cog-grayLightest">cog-grayLightest</i>
+						
+					</div>
+					<h2>cog-grayLightest</h2>
+				</li>
+				<li title="cog-white">
+					<div class="icon-box">
+						
+						<!-- cog-white -->
+						<i class="icon-cog-white">cog-white</i>
+						
+					</div>
+					<h2>cog-white</h2>
+				</li>
+				<li title="cross">
+					<div class="icon-box">
+						
+						<!-- cross -->
+						<i class="icon-cross">cross</i>
+						
+					</div>
+					<h2>cross</h2>
+				</li>
+				<li title="cross-grayDark">
+					<div class="icon-box">
+						
+						<!-- cross-grayDark -->
+						<i class="icon-cross-grayDark">cross-grayDark</i>
+						
+					</div>
+					<h2>cross-grayDark</h2>
+				</li>
+				<li title="cross-grayDarker">
+					<div class="icon-box">
+						
+						<!-- cross-grayDarker -->
+						<i class="icon-cross-grayDarker">cross-grayDarker</i>
+						
+					</div>
+					<h2>cross-grayDarker</h2>
+				</li>
+				<li title="cross-grayLightest">
+					<div class="icon-box">
+						
+						<!-- cross-grayLightest -->
+						<i class="icon-cross-grayLightest">cross-grayLightest</i>
+						
+					</div>
+					<h2>cross-grayLightest</h2>
+				</li>
+				<li title="cross-white">
+					<div class="icon-box">
+						
+						<!-- cross-white -->
+						<i class="icon-cross-white">cross-white</i>
+						
+					</div>
+					<h2>cross-white</h2>
+				</li>
+				<li title="exclamation">
+					<div class="icon-box">
+						
+						<!-- exclamation -->
+						<i class="icon-exclamation">exclamation</i>
+						
+					</div>
+					<h2>exclamation</h2>
+				</li>
+				<li title="exclamation-grayDark">
+					<div class="icon-box">
+						
+						<!-- exclamation-grayDark -->
+						<i class="icon-exclamation-grayDark">exclamation-grayDark</i>
+						
+					</div>
+					<h2>exclamation-grayDark</h2>
+				</li>
+				<li title="exclamation-redOrangeDark">
+					<div class="icon-box">
+						
+						<!-- exclamation-redOrangeDark -->
+						<i class="icon-exclamation-redOrangeDark">exclamation-redOrangeDark</i>
+						
+					</div>
+					<h2>exclamation-redOrangeDark</h2>
+				</li>
+				<li title="eye">
+					<div class="icon-box">
+						
+						<!-- eye -->
+						<i class="icon-eye">eye</i>
+						
+					</div>
+					<h2>eye</h2>
+				</li>
+				<li title="eye-grayDark">
+					<div class="icon-box">
+						
+						<!-- eye-grayDark -->
+						<i class="icon-eye-grayDark">eye-grayDark</i>
+						
+					</div>
+					<h2>eye-grayDark</h2>
+				</li>
+				<li title="eye-white">
+					<div class="icon-box">
+						
+						<!-- eye-white -->
+						<i class="icon-eye-white">eye-white</i>
+						
+					</div>
+					<h2>eye-white</h2>
+				</li>
+				<li title="fast-forward">
+					<div class="icon-box">
+						
+						<!-- fast-forward -->
+						<i class="icon-fast-forward">fast-forward</i>
+						
+					</div>
+					<h2>fast-forward</h2>
+				</li>
+				<li title="fast-forward-grayLightest">
+					<div class="icon-box">
+						
+						<!-- fast-forward-grayLightest -->
+						<i class="icon-fast-forward-grayLightest">fast-forward-grayLightest</i>
+						
+					</div>
+					<h2>fast-forward-grayLightest</h2>
+				</li>
+				<li title="fast-forward-white">
+					<div class="icon-box">
+						
+						<!-- fast-forward-white -->
+						<i class="icon-fast-forward-white">fast-forward-white</i>
+						
+					</div>
+					<h2>fast-forward-white</h2>
+				</li>
+				<li title="grid">
+					<div class="icon-box">
+						
+						<!-- grid -->
+						<i class="icon-grid">grid</i>
+						
+					</div>
+					<h2>grid</h2>
+				</li>
+				<li title="grid-grayLightest">
+					<div class="icon-box">
+						
+						<!-- grid-grayLightest -->
+						<i class="icon-grid-grayLightest">grid-grayLightest</i>
+						
+					</div>
+					<h2>grid-grayLightest</h2>
+				</li>
+				<li title="grid-white">
+					<div class="icon-box">
+						
+						<!-- grid-white -->
+						<i class="icon-grid-white">grid-white</i>
+						
+					</div>
+					<h2>grid-white</h2>
+				</li>
+				<li title="head">
+					<div class="icon-box">
+						
+						<!-- head -->
+						<i class="icon-head">head</i>
+						
+					</div>
+					<h2>head</h2>
+				</li>
+				<li title="head-grayLightest">
+					<div class="icon-box">
+						
+						<!-- head-grayLightest -->
+						<i class="icon-head-grayLightest">head-grayLightest</i>
+						
+					</div>
+					<h2>head-grayLightest</h2>
+				</li>
+				<li title="head-white">
+					<div class="icon-box">
+						
+						<!-- head-white -->
+						<i class="icon-head-white">head-white</i>
+						
+					</div>
+					<h2>head-white</h2>
+				</li>
+				<li title="home">
+					<div class="icon-box">
+						
+						<!-- home -->
+						<i class="icon-home">home</i>
+						
+					</div>
+					<h2>home</h2>
+				</li>
+				<li title="home-blue">
+					<div class="icon-box">
+						
+						<!-- home-blue -->
+						<i class="icon-home-blue">home-blue</i>
+						
+					</div>
+					<h2>home-blue</h2>
+				</li>
+				<li title="home-grayLightest">
+					<div class="icon-box">
+						
+						<!-- home-grayLightest -->
+						<i class="icon-home-grayLightest">home-grayLightest</i>
+						
+					</div>
+					<h2>home-grayLightest</h2>
+				</li>
+				<li title="home-white">
+					<div class="icon-box">
+						
+						<!-- home-white -->
+						<i class="icon-home-white">home-white</i>
+						
+					</div>
+					<h2>home-white</h2>
+				</li>
+				<li title="layers">
+					<div class="icon-box">
+						
+						<!-- layers -->
+						<i class="icon-layers">layers</i>
+						
+					</div>
+					<h2>layers</h2>
+				</li>
+				<li title="layers-grayDark">
+					<div class="icon-box">
+						
+						<!-- layers-grayDark -->
+						<i class="icon-layers-grayDark">layers-grayDark</i>
+						
+					</div>
+					<h2>layers-grayDark</h2>
+				</li>
+				<li title="layers-grayLightest">
+					<div class="icon-box">
+						
+						<!-- layers-grayLightest -->
+						<i class="icon-layers-grayLightest">layers-grayLightest</i>
+						
+					</div>
+					<h2>layers-grayLightest</h2>
+				</li>
+				<li title="layers-white">
+					<div class="icon-box">
+						
+						<!-- layers-white -->
+						<i class="icon-layers-white">layers-white</i>
+						
+					</div>
+					<h2>layers-white</h2>
+				</li>
+				<li title="layout">
+					<div class="icon-box">
+						
+						<!-- layout -->
+						<i class="icon-layout">layout</i>
+						
+					</div>
+					<h2>layout</h2>
+				</li>
+				<li title="layout-blue">
+					<div class="icon-box">
+						
+						<!-- layout-blue -->
+						<i class="icon-layout-blue">layout-blue</i>
+						
+					</div>
+					<h2>layout-blue</h2>
+				</li>
+				<li title="layout-grayLightest">
+					<div class="icon-box">
+						
+						<!-- layout-grayLightest -->
+						<i class="icon-layout-grayLightest">layout-grayLightest</i>
+						
+					</div>
+					<h2>layout-grayLightest</h2>
+				</li>
+				<li title="layout-white">
+					<div class="icon-box">
+						
+						<!-- layout-white -->
+						<i class="icon-layout-white">layout-white</i>
+						
+					</div>
+					<h2>layout-white</h2>
+				</li>
+				<li title="loader">
+					<div class="icon-box">
+						
+						<!-- loader -->
+						<i class="icon-loader">loader</i>
+						
+					</div>
+					<h2>loader</h2>
+				</li>
+				<li title="loader-blueDark">
+					<div class="icon-box">
+						
+						<!-- loader-blueDark -->
+						<i class="icon-loader-blueDark">loader-blueDark</i>
+						
+					</div>
+					<h2>loader-blueDark</h2>
+				</li>
+				<li title="loader-grayDark">
+					<div class="icon-box">
+						
+						<!-- loader-grayDark -->
+						<i class="icon-loader-grayDark">loader-grayDark</i>
+						
+					</div>
+					<h2>loader-grayDark</h2>
+				</li>
+				<li title="maximize">
+					<div class="icon-box">
+						
+						<!-- maximize -->
+						<i class="icon-maximize">maximize</i>
+						
+					</div>
+					<h2>maximize</h2>
+				</li>
+				<li title="maximize-grayLightest">
+					<div class="icon-box">
+						
+						<!-- maximize-grayLightest -->
+						<i class="icon-maximize-grayLightest">maximize-grayLightest</i>
+						
+					</div>
+					<h2>maximize-grayLightest</h2>
+				</li>
+				<li title="maximize-white">
+					<div class="icon-box">
+						
+						<!-- maximize-white -->
+						<i class="icon-maximize-white">maximize-white</i>
+						
+					</div>
+					<h2>maximize-white</h2>
+				</li>
+				<li title="menu">
+					<div class="icon-box">
+						
+						<!-- menu -->
+						<i class="icon-menu">menu</i>
+						
+					</div>
+					<h2>menu</h2>
+				</li>
+				<li title="menu-blue">
+					<div class="icon-box">
+						
+						<!-- menu-blue -->
+						<i class="icon-menu-blue">menu-blue</i>
+						
+					</div>
+					<h2>menu-blue</h2>
+				</li>
+				<li title="menu-grayLightest">
+					<div class="icon-box">
+						
+						<!-- menu-grayLightest -->
+						<i class="icon-menu-grayLightest">menu-grayLightest</i>
+						
+					</div>
+					<h2>menu-grayLightest</h2>
+				</li>
+				<li title="menu-white">
+					<div class="icon-box">
+						
+						<!-- menu-white -->
+						<i class="icon-menu-white">menu-white</i>
+						
+					</div>
+					<h2>menu-white</h2>
+				</li>
+				<li title="minimize">
+					<div class="icon-box">
+						
+						<!-- minimize -->
+						<i class="icon-minimize">minimize</i>
+						
+					</div>
+					<h2>minimize</h2>
+				</li>
+				<li title="minimize-grayLightest">
+					<div class="icon-box">
+						
+						<!-- minimize-grayLightest -->
+						<i class="icon-minimize-grayLightest">minimize-grayLightest</i>
+						
+					</div>
+					<h2>minimize-grayLightest</h2>
+				</li>
+				<li title="minimize-white">
+					<div class="icon-box">
+						
+						<!-- minimize-white -->
+						<i class="icon-minimize-white">minimize-white</i>
+						
+					</div>
+					<h2>minimize-white</h2>
+				</li>
+				<li title="minus">
+					<div class="icon-box">
+						
+						<!-- minus -->
+						<i class="icon-minus">minus</i>
+						
+					</div>
+					<h2>minus</h2>
+				</li>
+				<li title="minus-grayLightest">
+					<div class="icon-box">
+						
+						<!-- minus-grayLightest -->
+						<i class="icon-minus-grayLightest">minus-grayLightest</i>
+						
+					</div>
+					<h2>minus-grayLightest</h2>
+				</li>
+				<li title="minus-white">
+					<div class="icon-box">
+						
+						<!-- minus-white -->
+						<i class="icon-minus-white">minus-white</i>
+						
+					</div>
+					<h2>minus-white</h2>
+				</li>
+				<li title="open">
+					<div class="icon-box">
+						
+						<!-- open -->
+						<i class="icon-open">open</i>
+						
+					</div>
+					<h2>open</h2>
+				</li>
+				<li title="open-grayDark">
+					<div class="icon-box">
+						
+						<!-- open-grayDark -->
+						<i class="icon-open-grayDark">open-grayDark</i>
+						
+					</div>
+					<h2>open-grayDark</h2>
+				</li>
+				<li title="open-white">
+					<div class="icon-box">
+						
+						<!-- open-white -->
+						<i class="icon-open-white">open-white</i>
+						
+					</div>
+					<h2>open-white</h2>
+				</li>
+				<li title="paper">
+					<div class="icon-box">
+						
+						<!-- paper -->
+						<i class="icon-paper">paper</i>
+						
+					</div>
+					<h2>paper</h2>
+				</li>
+				<li title="paper-grayDark">
+					<div class="icon-box">
+						
+						<!-- paper-grayDark -->
+						<i class="icon-paper-grayDark">paper-grayDark</i>
+						
+					</div>
+					<h2>paper-grayDark</h2>
+				</li>
+				<li title="pencil">
+					<div class="icon-box">
+						
+						<!-- pencil -->
+						<i class="icon-pencil">pencil</i>
+						
+					</div>
+					<h2>pencil</h2>
+				</li>
+				<li title="pencil-grayDark">
+					<div class="icon-box">
+						
+						<!-- pencil-grayDark -->
+						<i class="icon-pencil-grayDark">pencil-grayDark</i>
+						
+					</div>
+					<h2>pencil-grayDark</h2>
+				</li>
+				<li title="pencil-grayLightest">
+					<div class="icon-box">
+						
+						<!-- pencil-grayLightest -->
+						<i class="icon-pencil-grayLightest">pencil-grayLightest</i>
+						
+					</div>
+					<h2>pencil-grayLightest</h2>
+				</li>
+				<li title="pencil-white">
+					<div class="icon-box">
+						
+						<!-- pencil-white -->
+						<i class="icon-pencil-white">pencil-white</i>
+						
+					</div>
+					<h2>pencil-white</h2>
+				</li>
+				<li title="plus">
+					<div class="icon-box">
+						
+						<!-- plus -->
+						<i class="icon-plus">plus</i>
+						
+					</div>
+					<h2>plus</h2>
+				</li>
+				<li title="plus-grayLightest">
+					<div class="icon-box">
+						
+						<!-- plus-grayLightest -->
+						<i class="icon-plus-grayLightest">plus-grayLightest</i>
+						
+					</div>
+					<h2>plus-grayLightest</h2>
+				</li>
+				<li title="plus-white">
+					<div class="icon-box">
+						
+						<!-- plus-white -->
+						<i class="icon-plus-white">plus-white</i>
+						
+					</div>
+					<h2>plus-white</h2>
+				</li>
+				<li title="question">
+					<div class="icon-box">
+						
+						<!-- question -->
+						<i class="icon-question">question</i>
+						
+					</div>
+					<h2>question</h2>
+				</li>
+				<li title="question-grayLightest">
+					<div class="icon-box">
+						
+						<!-- question-grayLightest -->
+						<i class="icon-question-grayLightest">question-grayLightest</i>
+						
+					</div>
+					<h2>question-grayLightest</h2>
+				</li>
+				<li title="question-white">
+					<div class="icon-box">
+						
+						<!-- question-white -->
+						<i class="icon-question-white">question-white</i>
+						
+					</div>
+					<h2>question-white</h2>
+				</li>
+				<li title="reload">
+					<div class="icon-box">
+						
+						<!-- reload -->
+						<i class="icon-reload">reload</i>
+						
+					</div>
+					<h2>reload</h2>
+				</li>
+				<li title="reload-blueDark">
+					<div class="icon-box">
+						
+						<!-- reload-blueDark -->
+						<i class="icon-reload-blueDark">reload-blueDark</i>
+						
+					</div>
+					<h2>reload-blueDark</h2>
+				</li>
+				<li title="reload-grayDark">
+					<div class="icon-box">
+						
+						<!-- reload-grayDark -->
+						<i class="icon-reload-grayDark">reload-grayDark</i>
+						
+					</div>
+					<h2>reload-grayDark</h2>
+				</li>
+				<li title="rewind">
+					<div class="icon-box">
+						
+						<!-- rewind -->
+						<i class="icon-rewind">rewind</i>
+						
+					</div>
+					<h2>rewind</h2>
+				</li>
+				<li title="rewind-grayLightest">
+					<div class="icon-box">
+						
+						<!-- rewind-grayLightest -->
+						<i class="icon-rewind-grayLightest">rewind-grayLightest</i>
+						
+					</div>
+					<h2>rewind-grayLightest</h2>
+				</li>
+				<li title="rewind-white">
+					<div class="icon-box">
+						
+						<!-- rewind-white -->
+						<i class="icon-rewind-white">rewind-white</i>
+						
+					</div>
+					<h2>rewind-white</h2>
+				</li>
+				<li title="ribbon">
+					<div class="icon-box">
+						
+						<!-- ribbon -->
+						<i class="icon-ribbon">ribbon</i>
+						
+					</div>
+					<h2>ribbon</h2>
+				</li>
+				<li title="ribbon-filled">
+					<div class="icon-box">
+						
+						<!-- ribbon-filled -->
+						<i class="icon-ribbon-filled">ribbon-filled</i>
+						
+					</div>
+					<h2>ribbon-filled</h2>
+				</li>
+				<li title="ribbon-filled-white">
+					<div class="icon-box">
+						
+						<!-- ribbon-filled-white -->
+						<i class="icon-ribbon-filled-white">ribbon-filled-white</i>
+						
+					</div>
+					<h2>ribbon-filled-white</h2>
+				</li>
+				<li title="ribbon-filled-yellow">
+					<div class="icon-box">
+						
+						<!-- ribbon-filled-yellow -->
+						<i class="icon-ribbon-filled-yellow">ribbon-filled-yellow</i>
+						
+					</div>
+					<h2>ribbon-filled-yellow</h2>
+				</li>
+				<li title="ribbon-grayDark">
+					<div class="icon-box">
+						
+						<!-- ribbon-grayDark -->
+						<i class="icon-ribbon-grayDark">ribbon-grayDark</i>
+						
+					</div>
+					<h2>ribbon-grayDark</h2>
+				</li>
+				<li title="ribbon-grayLightest">
+					<div class="icon-box">
+						
+						<!-- ribbon-grayLightest -->
+						<i class="icon-ribbon-grayLightest">ribbon-grayLightest</i>
+						
+					</div>
+					<h2>ribbon-grayLightest</h2>
+				</li>
+				<li title="ribbon-white">
+					<div class="icon-box">
+						
+						<!-- ribbon-white -->
+						<i class="icon-ribbon-white">ribbon-white</i>
+						
+					</div>
+					<h2>ribbon-white</h2>
+				</li>
+				<li title="save">
+					<div class="icon-box">
+						
+						<!-- save -->
+						<i class="icon-save">save</i>
+						
+					</div>
+					<h2>save</h2>
+				</li>
+				<li title="save-grayDark">
+					<div class="icon-box">
+						
+						<!-- save-grayDark -->
+						<i class="icon-save-grayDark">save-grayDark</i>
+						
+					</div>
+					<h2>save-grayDark</h2>
+				</li>
+				<li title="save-white">
+					<div class="icon-box">
+						
+						<!-- save-white -->
+						<i class="icon-save-white">save-white</i>
+						
+					</div>
+					<h2>save-white</h2>
+				</li>
+				<li title="search">
+					<div class="icon-box">
+						
+						<!-- search -->
+						<i class="icon-search">search</i>
+						
+					</div>
+					<h2>search</h2>
+				</li>
+				<li title="search-grayDark">
+					<div class="icon-box">
+						
+						<!-- search-grayDark -->
+						<i class="icon-search-grayDark">search-grayDark</i>
+						
+					</div>
+					<h2>search-grayDark</h2>
+				</li>
+				<li title="search-white">
+					<div class="icon-box">
+						
+						<!-- search-white -->
+						<i class="icon-search-white">search-white</i>
+						
+					</div>
+					<h2>search-white</h2>
+				</li>
+				<li title="shopping">
+					<div class="icon-box">
+						
+						<!-- shopping -->
+						<i class="icon-shopping">shopping</i>
+						
+					</div>
+					<h2>shopping</h2>
+				</li>
+				<li title="shopping-blue">
+					<div class="icon-box">
+						
+						<!-- shopping-blue -->
+						<i class="icon-shopping-blue">shopping-blue</i>
+						
+					</div>
+					<h2>shopping-blue</h2>
+				</li>
+				<li title="shopping-grayLightest">
+					<div class="icon-box">
+						
+						<!-- shopping-grayLightest -->
+						<i class="icon-shopping-grayLightest">shopping-grayLightest</i>
+						
+					</div>
+					<h2>shopping-grayLightest</h2>
+				</li>
+				<li title="shopping-settings">
+					<div class="icon-box">
+						
+						<!-- shopping-settings -->
+						<i class="icon-shopping-settings">shopping-settings</i>
+						
+					</div>
+					<h2>shopping-settings</h2>
+				</li>
+				<li title="shopping-settings-grayLightest">
+					<div class="icon-box">
+						
+						<!-- shopping-settings-grayLightest -->
+						<i class="icon-shopping-settings-grayLightest">shopping-settings-grayLightest</i>
+						
+					</div>
+					<h2>shopping-settings-grayLightest</h2>
+				</li>
+				<li title="shopping-settings-white">
+					<div class="icon-box">
+						
+						<!-- shopping-settings-white -->
+						<i class="icon-shopping-settings-white">shopping-settings-white</i>
+						
+					</div>
+					<h2>shopping-settings-white</h2>
+				</li>
+				<li title="shopping-white">
+					<div class="icon-box">
+						
+						<!-- shopping-white -->
+						<i class="icon-shopping-white">shopping-white</i>
+						
+					</div>
+					<h2>shopping-white</h2>
+				</li>
+				<li title="square-plus">
+					<div class="icon-box">
+						
+						<!-- square-plus -->
+						<i class="icon-square-plus">square-plus</i>
+						
+					</div>
+					<h2>square-plus</h2>
+				</li>
+				<li title="square-plus-grayLightest">
+					<div class="icon-box">
+						
+						<!-- square-plus-grayLightest -->
+						<i class="icon-square-plus-grayLightest">square-plus-grayLightest</i>
+						
+					</div>
+					<h2>square-plus-grayLightest</h2>
+				</li>
+				<li title="square-plus-white">
+					<div class="icon-box">
+						
+						<!-- square-plus-white -->
+						<i class="icon-square-plus-white">square-plus-white</i>
+						
+					</div>
+					<h2>square-plus-white</h2>
+				</li>
+				<li title="stack">
+					<div class="icon-box">
+						
+						<!-- stack -->
+						<i class="icon-stack">stack</i>
+						
+					</div>
+					<h2>stack</h2>
+				</li>
+				<li title="stack-grayLightest">
+					<div class="icon-box">
+						
+						<!-- stack-grayLightest -->
+						<i class="icon-stack-grayLightest">stack-grayLightest</i>
+						
+					</div>
+					<h2>stack-grayLightest</h2>
+				</li>
+				<li title="stack-white">
+					<div class="icon-box">
+						
+						<!-- stack-white -->
+						<i class="icon-stack-white">stack-white</i>
+						
+					</div>
+					<h2>stack-white</h2>
+				</li>
+				<li title="star">
+					<div class="icon-box">
+						
+						<!-- star -->
+						<i class="icon-star">star</i>
+						
+					</div>
+					<h2>star</h2>
+				</li>
+				<li title="star-filled">
+					<div class="icon-box">
+						
+						<!-- star-filled -->
+						<i class="icon-star-filled">star-filled</i>
+						
+					</div>
+					<h2>star-filled</h2>
+				</li>
+				<li title="star-filled-grayLighter">
+					<div class="icon-box">
+						
+						<!-- star-filled-grayLighter -->
+						<i class="icon-star-filled-grayLighter">star-filled-grayLighter</i>
+						
+					</div>
+					<h2>star-filled-grayLighter</h2>
+				</li>
+				<li title="star-filled-yellow">
+					<div class="icon-box">
+						
+						<!-- star-filled-yellow -->
+						<i class="icon-star-filled-yellow">star-filled-yellow</i>
+						
+					</div>
+					<h2>star-filled-yellow</h2>
+				</li>
+				<li title="star-grayLighter">
+					<div class="icon-box">
+						
+						<!-- star-grayLighter -->
+						<i class="icon-star-grayLighter">star-grayLighter</i>
+						
+					</div>
+					<h2>star-grayLighter</h2>
+				</li>
+				<li title="star-half-filled">
+					<div class="icon-box">
+						
+						<!-- star-half-filled -->
+						<i class="icon-star-half-filled">star-half-filled</i>
+						
+					</div>
+					<h2>star-half-filled</h2>
+				</li>
+				<li title="star-half-filled-grayLighter">
+					<div class="icon-box">
+						
+						<!-- star-half-filled-grayLighter -->
+						<i class="icon-star-half-filled-grayLighter">star-half-filled-grayLighter</i>
+						
+					</div>
+					<h2>star-half-filled-grayLighter</h2>
+				</li>
+				<li title="star-half-filled-yellow">
+					<div class="icon-box">
+						
+						<!-- star-half-filled-yellow -->
+						<i class="icon-star-half-filled-yellow">star-half-filled-yellow</i>
+						
+					</div>
+					<h2>star-half-filled-yellow</h2>
+				</li>
+				<li title="star-halved">
+					<div class="icon-box">
+						
+						<!-- star-halved -->
+						<i class="icon-star-halved">star-halved</i>
+						
+					</div>
+					<h2>star-halved</h2>
+				</li>
+				<li title="star-halved-grayLighter">
+					<div class="icon-box">
+						
+						<!-- star-halved-grayLighter -->
+						<i class="icon-star-halved-grayLighter">star-halved-grayLighter</i>
+						
+					</div>
+					<h2>star-halved-grayLighter</h2>
+				</li>
+				<li title="star-halved-yellow">
+					<div class="icon-box">
+						
+						<!-- star-halved-yellow -->
+						<i class="icon-star-halved-yellow">star-halved-yellow</i>
+						
+					</div>
+					<h2>star-halved-yellow</h2>
+				</li>
+				<li title="star-yellow">
+					<div class="icon-box">
+						
+						<!-- star-yellow -->
+						<i class="icon-star-yellow">star-yellow</i>
+						
+					</div>
+					<h2>star-yellow</h2>
+				</li>
+				<li title="thumbs-up">
+					<div class="icon-box">
+						
+						<!-- thumbs-up -->
+						<i class="icon-thumbs-up">thumbs-up</i>
+						
+					</div>
+					<h2>thumbs-up</h2>
+				</li>
+				<li title="thumbs-up-grayDark">
+					<div class="icon-box">
+						
+						<!-- thumbs-up-grayDark -->
+						<i class="icon-thumbs-up-grayDark">thumbs-up-grayDark</i>
+						
+					</div>
+					<h2>thumbs-up-grayDark</h2>
+				</li>
+				<li title="thumbs-up-greenDark">
+					<div class="icon-box">
+						
+						<!-- thumbs-up-greenDark -->
+						<i class="icon-thumbs-up-greenDark">thumbs-up-greenDark</i>
+						
+					</div>
+					<h2>thumbs-up-greenDark</h2>
+				</li>
+				<li title="trash">
+					<div class="icon-box">
+						
+						<!-- trash -->
+						<i class="icon-trash">trash</i>
+						
+					</div>
+					<h2>trash</h2>
+				</li>
+				<li title="trash-blue">
+					<div class="icon-box">
+						
+						<!-- trash-blue -->
+						<i class="icon-trash-blue">trash-blue</i>
+						
+					</div>
+					<h2>trash-blue</h2>
+				</li>
+				<li title="trash-grayDark">
+					<div class="icon-box">
+						
+						<!-- trash-grayDark -->
+						<i class="icon-trash-grayDark">trash-grayDark</i>
+						
+					</div>
+					<h2>trash-grayDark</h2>
+				</li>
+				<li title="trash-white">
+					<div class="icon-box">
+						
+						<!-- trash-white -->
+						<i class="icon-trash-white">trash-white</i>
+						
+					</div>
+					<h2>trash-white</h2>
+				</li>
+				<li title="wrench">
+					<div class="icon-box">
+						
+						<!-- wrench -->
+						<i class="icon-wrench">wrench</i>
+						
+					</div>
+					<h2>wrench</h2>
+				</li>
+				<li title="wrench-grayLightest">
+					<div class="icon-box">
+						
+						<!-- wrench-grayLightest -->
+						<i class="icon-wrench-grayLightest">wrench-grayLightest</i>
+						
+					</div>
+					<h2>wrench-grayLightest</h2>
+				</li>
+				<li title="wrench-white">
+					<div class="icon-box">
+						
+						<!-- wrench-white -->
+						<i class="icon-wrench-white">wrench-white</i>
+						
+					</div>
+					<h2>wrench-white</h2>
+				</li>
+			</ul>
+
+<!--
+====================================================================================================
+-->
+
+		</section>
+		<footer>
+			<p>Generated at Thu, 05 Mar 2015 21:36:26 GMT by <a href="https://github.com/jkphl/svg-sprite" target="_blank">svg-sprite</a>.</p>
+		</footer>
+	</body>
+</html>

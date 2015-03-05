@@ -43,6 +43,8 @@ function copyAndRenameSrcFiles () {
 
 var colorfy = new DirectoryColorfy(SRC_SVG, TEMP_COLORFY_DIR, colorConfig);
 
+fs.removeSync('dist');
+
 gulp.task('default', function() {
     return Promise.all([copyAndRenameSrcFiles(), colorfy.convert()])
         .then(function() {
