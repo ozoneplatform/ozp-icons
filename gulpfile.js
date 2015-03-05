@@ -20,7 +20,11 @@ var svgConfig = {
             dimensions: true,
             example: true,
             bust: true,
-            render: { css: true }
+            render: {
+                css: {
+                    template: path.join(__dirname, 'sprite.css.tmpl')
+                }
+            }
         }
     }
 };
@@ -33,7 +37,7 @@ var colorConfig = {
 function copyAndRenameSrcFiles () {
     var src = fs.readdirSync(SRC_SVG);
     var target = src.map(function (file) {
-        return TEMP_COLORFY_DIR + '/' + file.replace(/colors-.*/, 'svg');
+        return path.join(TEMP_COLORFY_DIR, file.replace(/colors-.*/, 'svg'));
     });
 
     return Promise.all(src.map(function (file, index) {
