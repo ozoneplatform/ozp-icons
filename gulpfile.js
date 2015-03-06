@@ -23,6 +23,12 @@ var svgConfig = {
             render: {
                 css: {
                     template: path.join(__dirname, 'sprite.css.tmpl')
+                },
+                scss: {
+                    template: path.join(__dirname, 'sprite.scss.tmpl')
+                },
+                less: {
+                    template: path.join(__dirname, 'sprite.less.tmpl')
                 }
             }
         }
