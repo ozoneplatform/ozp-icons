@@ -16,7 +16,3 @@ npm run build
 ```
 
 CSS and SVG Sprite is saved in `dist` directory along with an example HTML file.
-
-## Error: spawn EMFILE
-
-You might need to do `ulimit -n 10240` to increase the amount of files that are allowed open at once.
