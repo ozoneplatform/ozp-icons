@@ -1,1334 +1,1383 @@
 .svg-common {
-    background-image: url(svg/sprite.css-1b1ca04f.svg);
+    background-image: url(svg/sprite.css-780d6de0.svg);
     background-repeat: no-repeat;
+}
+
+.icon-align-justify {
+    @extend .svg-common;
+    background-position: 100% 7.100591715976331%;
+    width: 12px;
+    height: 12px;
+}
+
+.icon-align-justify-blue {
+    @extend .svg-common;
+    background-position: 6.779661016949152% 100%;
+    width: 12px;
+    height: 12px;
+}
+
+.icon-align-justify-blueDark {
+    @extend .svg-common;
+    background-position: 100% 10.650887573964496%;
+    width: 12px;
+    height: 12px;
+}
+
+.icon-align-justify-grayDark {
+    @extend .svg-common;
+    background-position: 100% 14.201183431952662%;
+    width: 12px;
+    height: 12px;
+}
+
+.icon-align-justify-grayLightest {
+    @extend .svg-common;
+    background-position: 96.045197740113% 22.486094674556213%;
+    width: 12px;
+    height: 12px;
+}
+
+.icon-align-justify-white {
+    @extend .svg-common;
+    background-position: 96.045197740113% 50.888461538461534%;
+    width: 12px;
+    height: 12px;
 }
 
 .icon-arrow-right {
     @extend .svg-common;
-    background-position: 64.40677966101696% 34.817550328483605%;
+    background-position: 96.045197740113% 54.05525296858383%;
     width: 12px;
     height: 9.602px;
 }
 
 .icon-arrow-right-blue {
     @extend .svg-common;
-    background-position: 13.559322033898304% 96.46173779530704%;
+    background-position: 96.045197740113% 70.97720903178045%;
     width: 12px;
     height: 9.602px;
 }
 
 .icon-arrow-right-blueDark {
     @extend .svg-common;
-    background-position: 64.40677966101696% 37.6714478963921%;
+    background-position: 96.045197740113% 87.89916509497705%;
     width: 12px;
     height: 9.602px;
 }
 
 .icon-arrow-right-grayLightest {
     @extend .svg-common;
-    background-position: 96.045197740113% 51.941791905204944%;
+    background-position: 96.045197740113% 90.7199807284414%;
     width: 12px;
     height: 9.602px;
 }
 
 .icon-arrow-right-white {
     @extend .svg-common;
-    background-position: 96.045197740113% 54.68210434991067%;
+    background-position: 96.045197740113% 93.54079636190575%;
     width: 12px;
     height: 9.602px;
 }
 
 .icon-ban-12 {
     @extend .svg-common;
-    background-position: 96.045197740113% 81.95603448275862%;
+    background-position: 77.96610169491525% 74.55621301775147%;
     width: 12px;
     height: 12px;
 }
 
 .icon-ban-12-blue {
     @extend .svg-common;
-    background-position: 96.045197740113% 85.40431034482759%;
+    background-position: 67.79661016949153% 63.905325443786985%;
     width: 12px;
     height: 12px;
 }
 
 .icon-ban-12-blueDark {
     @extend .svg-common;
-    background-position: 96.045197740113% 88.85258620689656%;
+    background-position: 71.1864406779661% 63.905325443786985%;
     width: 12px;
     height: 12px;
 }
 
 .icon-ban-12-orange {
     @extend .svg-common;
-    background-position: 74.57627118644068% 62.06896551724138%;
+    background-position: 10.169491525423728% 100%;
     width: 12px;
     height: 12px;
 }
 
 .icon-ban-12-red {
     @extend .svg-common;
-    background-position: 64.40677966101696% 31.60919540229885%;
+    background-position: 13.559322033898304% 100%;
     width: 12px;
     height: 12px;
 }
 
 .icon-ban-14 {
     @extend .svg-common;
-    background-position: 63.06818181818182% 71.67630057803468%;
+    background-position: 92.61363636363636% 54.166666666666664%;
     width: 14px;
     height: 14px;
 }
 
 .icon-ban-14-blue {
     @extend .svg-common;
-    background-position: 67.04545454545455% 71.67630057803468%;
+    background-position: 92.61363636363636% 58.333333333333336%;
     width: 14px;
     height: 14px;
 }
 
 .icon-ban-14-blueDark {
     @extend .svg-common;
-    background-position: 43.75% 81.5028901734104%;
+    background-position: 0 96.42857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-ban-14-orange {
     @extend .svg-common;
-    background-position: 51.70454545454545% 81.5028901734104%;
+    background-position: 3.977272727272727% 96.42857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-ban-14-red {
     @extend .svg-common;
-    background-position: 55.68181818181818% 81.5028901734104%;
+    background-position: 31.818181818181817% 96.42857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-bar-graph-2 {
     @extend .svg-common;
-    background-position: 96.045197740113% 28.161000462645006%;
+    background-position: 96.045197740113% 8.28404817765733%;
     width: 12px;
     height: 12.001px;
 }
 
 .icon-bar-graph-2-grayLightest {
     @extend .svg-common;
-    background-position: 96.045197740113% 31.609573590728708%;
+    background-position: 96.045197740113% 11.834650398373958%;
     width: 12px;
     height: 12.001px;
 }
 
 .icon-bar-graph-2-white {
     @extend .svg-common;
-    background-position: 96.045197740113% 35.05814671881241%;
+    background-position: 96.045197740113% 15.385252619090588%;
     width: 12px;
     height: 12.001px;
 }
 
 .icon-bell {
     @extend .svg-common;
-    background-position: 67.24137931034483% 77.19298245614036%;
+    background-position: 79.3103448275862% 70.48192771084338%;
     width: 18px;
     height: 18px;
 }
 
 .icon-bell-filled {
     @extend .svg-common;
-    background-position: 72.41379310344827% 77.19298245614036%;
+    background-position: 46.55172413793103% 79.51807228915662%;
     width: 18px;
     height: 18px;
 }
 
 .icon-bell-filled-blue {
     @extend .svg-common;
-    background-position: 57.47126436781609% 66.66666666666667%;
+    background-position: 67.816091954023% 68.67469879518072%;
     width: 18px;
     height: 18px;
 }
 
 .icon-bell-grayLightest {
     @extend .svg-common;
-    background-position: 62.64367816091954% 66.66666666666667%;
+    background-position: 72.98850574712644% 68.67469879518072%;
     width: 18px;
     height: 18px;
 }
 
 .icon-bell-white {
     @extend .svg-common;
-    background-position: 67.816091954023% 66.66666666666667%;
+    background-position: 79.3103448275862% 0;
     width: 18px;
     height: 18px;
 }
 
 .icon-caret-down-14 {
     @extend .svg-common;
-    background-position: 27.84090909090909% 93.64161849710983%;
+    background-position: 7.954545454545454% 83.92857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-caret-down-14-blue {
     @extend .svg-common;
-    background-position: 31.818181818181817% 93.64161849710983%;
+    background-position: 11.931818181818182% 83.92857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-caret-down-14-blueDark {
     @extend .svg-common;
-    background-position: 39.77272727272727% 93.64161849710983%;
+    background-position: 15.909090909090908% 83.92857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-caret-down-14-grayDark {
     @extend .svg-common;
-    background-position: 43.75% 93.64161849710983%;
+    background-position: 23.863636363636363% 83.92857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-caret-down-14-grayLightest {
     @extend .svg-common;
-    background-position: 83.52272727272727% 93.64161849710983%;
+    background-position: 59.65909090909091% 83.92857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-caret-down-14-white {
     @extend .svg-common;
-    background-position: 87.5% 93.64161849710983%;
+    background-position: 63.63636363636363% 83.92857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-caret-down-18 {
     @extend .svg-common;
-    background-position: 84% 71.51162790697674%;
+    background-position: 84% 73.65269461077844%;
     width: 16px;
     height: 16px;
 }
 
 .icon-caret-down-18-blue {
     @extend .svg-common;
-    background-position: 84% 66.86046511627907%;
+    background-position: 84% 68.8622754491018%;
     width: 16px;
     height: 16px;
 }
 
 .icon-caret-down-18-blueDark {
     @extend .svg-common;
-    background-position: 84% 62.2093023255814%;
+    background-position: 84% 64.07185628742515%;
     width: 16px;
     height: 16px;
 }
 
 .icon-caret-down-18-grayDark {
     @extend .svg-common;
-    background-position: 84% 57.55813953488372%;
+    background-position: 84% 59.2814371257485%;
     width: 16px;
     height: 16px;
 }
 
 .icon-caret-down-18-grayLightest {
     @extend .svg-common;
-    background-position: 84% 52.906976744186046%;
+    background-position: 84% 54.49101796407186%;
     width: 16px;
     height: 16px;
 }
 
 .icon-caret-down-18-white {
     @extend .svg-common;
-    background-position: 84% 15.69767441860465%;
+    background-position: 84% 16.167664670658684%;
     width: 16px;
     height: 16px;
 }
 
 .icon-caret-left {
     @extend .svg-common;
-    background-position: 59.65909090909091% 81.5028901734104%;
+    background-position: 3.977272727272727% 88.0952380952381%;
     width: 14px;
     height: 14px;
 }
 
 .icon-caret-left-white {
     @extend .svg-common;
-    background-position: 63.63636363636363% 81.5028901734104%;
+    background-position: 7.954545454545454% 88.0952380952381%;
     width: 14px;
     height: 14px;
 }
 
 .icon-caret-right {
     @extend .svg-common;
-    background-position: 3.977272727272727% 85.54913294797687%;
+    background-position: 11.931818181818182% 88.0952380952381%;
     width: 14px;
     height: 14px;
 }
 
 .icon-caret-right-blueDark {
     @extend .svg-common;
-    background-position: 7.954545454545454% 85.54913294797687%;
+    background-position: 15.909090909090908% 88.0952380952381%;
     width: 14px;
     height: 14px;
 }
 
 .icon-caret-right-grayDarkest {
     @extend .svg-common;
-    background-position: 11.931818181818182% 85.54913294797687%;
+    background-position: 19.886363636363637% 88.0952380952381%;
     width: 14px;
     height: 14px;
 }
 
 .icon-caret-right-white {
     @extend .svg-common;
-    background-position: 15.909090909090908% 85.54913294797687%;
+    background-position: 23.863636363636363% 88.0952380952381%;
     width: 14px;
     height: 14px;
 }
 
 .icon-caret-up {
     @extend .svg-common;
-    background-position: 64.40677966101696% 44.13850574712644%;
+    background-position: 100% 17.75147928994083%;
     width: 12px;
     height: 12px;
 }
 
 .icon-caret-up-blue {
     @extend .svg-common;
-    background-position: 100% 0;
+    background-position: 100% 31.952662721893493%;
     width: 12px;
     height: 12px;
 }
 
 .icon-caret-up-blueDark {
     @extend .svg-common;
-    background-position: 100% 3.4482758620689653%;
+    background-position: 100% 28.402366863905325%;
     width: 12px;
     height: 12px;
 }
 
 .icon-caret-up-grayLightest {
     @extend .svg-common;
-    background-position: 100% 79.3103448275862%;
+    background-position: 100% 24.85207100591716%;
     width: 12px;
     height: 12px;
 }
 
 .icon-caret-up-white {
     @extend .svg-common;
-    background-position: 100% 82.75862068965517%;
+    background-position: 100% 21.301775147928993%;
     width: 12px;
     height: 12px;
 }
 
 .icon-check {
     @extend .svg-common;
-    background-position: 35.79545454545455% 85.54913294797687%;
+    background-position: 51.70454545454545% 88.0952380952381%;
     width: 14px;
     height: 14px;
 }
 
 .icon-check-white {
     @extend .svg-common;
-    background-position: 39.77272727272727% 85.54913294797687%;
+    background-position: 55.68181818181818% 88.0952380952381%;
     width: 14px;
     height: 14px;
 }
 
 .icon-circle-check {
     @extend .svg-common;
-    background-position: 43.75% 85.54913294797687%;
+    background-position: 59.65909090909091% 88.0952380952381%;
     width: 14px;
     height: 14px;
 }
 
 .icon-circle-check-green {
     @extend .svg-common;
-    background-position: 47.72727272727273% 85.54913294797687%;
+    background-position: 63.63636363636363% 88.0952380952381%;
     width: 14px;
     height: 14px;
 }
 
 .icon-cloud {
     @extend .svg-common;
-    background-position: 51.70454545454545% 85.54913294797687%;
+    background-position: 88.63636363636364% 8.333333333333334%;
     width: 14px;
     height: 14px;
 }
 
 .icon-cloud-grayLightest {
     @extend .svg-common;
-    background-position: 67.61363636363636% 85.54913294797687%;
+    background-position: 88.63636363636364% 12.5%;
     width: 14px;
     height: 14px;
 }
 
 .icon-cloud-upload {
     @extend .svg-common;
-    background-position: 71.5909090909091% 85.54913294797687%;
+    background-position: 88.63636363636364% 16.666666666666668%;
     width: 14px;
     height: 14px;
 }
 
 .icon-cloud-upload-grayDark {
     @extend .svg-common;
-    background-position: 75.56818181818181% 85.54913294797687%;
+    background-position: 88.63636363636364% 20.833333333333332%;
     width: 14px;
     height: 14px;
 }
 
 .icon-cloud-upload-white {
     @extend .svg-common;
-    background-position: 79.54545454545455% 85.54913294797687%;
+    background-position: 88.63636363636364% 25%;
     width: 14px;
     height: 14px;
 }
 
 .icon-cloud-white {
     @extend .svg-common;
-    background-position: 83.52272727272727% 85.54913294797687%;
+    background-position: 88.63636363636364% 29.166666666666668%;
     width: 14px;
     height: 14px;
 }
 
 .icon-cog {
     @extend .svg-common;
-    background-position: 88.63636363636364% 0;
+    background-position: 88.63636363636364% 33.333333333333336%;
     width: 14px;
     height: 14px;
 }
 
 .icon-cog-grayLightest {
     @extend .svg-common;
-    background-position: 88.63636363636364% 4.046242774566474%;
+    background-position: 88.63636363636364% 37.5%;
     width: 14px;
     height: 14px;
 }
 
 .icon-cog-white {
     @extend .svg-common;
-    background-position: 88.63636363636364% 8.092485549132949%;
+    background-position: 88.63636363636364% 62.5%;
     width: 14px;
     height: 14px;
 }
 
 .icon-cross-10 {
     @extend .svg-common;
-    background-position: 22.471910112359552% 100%;
+    background-position: 99.43820224719101% 38.23529411764706%;
     width: 10px;
     height: 10px;
 }
 
 .icon-cross-10-blue {
     @extend .svg-common;
-    background-position: 99.43820224719101% 88.57142857142857%;
+    background-position: 99.43820224719101% 76.47058823529412%;
     width: 10px;
     height: 10px;
 }
 
 .icon-cross-10-blueDark {
     @extend .svg-common;
-    background-position: 99.43820224719101% 91.42857142857143%;
+    background-position: 99.43820224719101% 41.1764705882353%;
     width: 10px;
     height: 10px;
 }
 
 .icon-cross-10-grayDark {
     @extend .svg-common;
-    background-position: 99.43820224719101% 94.28571428571429%;
+    background-position: 99.43820224719101% 44.11764705882353%;
     width: 10px;
     height: 10px;
 }
 
 .icon-cross-10-grayDarker {
     @extend .svg-common;
-    background-position: 99.43820224719101% 97.14285714285714%;
+    background-position: 99.43820224719101% 47.05882352941177%;
     width: 10px;
     height: 10px;
 }
 
 .icon-cross-10-grayLightest {
     @extend .svg-common;
-    background-position: 64.6067415730337% 60.57142857142857%;
+    background-position: 99.43820224719101% 50%;
     width: 10px;
     height: 10px;
 }
 
 .icon-cross-10-white {
     @extend .svg-common;
-    background-position: 0 100%;
+    background-position: 99.43820224719101% 52.94117647058823%;
     width: 10px;
     height: 10px;
 }
 
 .icon-cross-14 {
     @extend .svg-common;
-    background-position: 88.63636363636364% 56.64739884393064%;
+    background-position: 35.79545454545455% 92.26190476190476%;
     width: 14px;
     height: 14px;
 }
 
 .icon-cross-14-blue {
     @extend .svg-common;
-    background-position: 88.63636363636364% 84.97109826589596%;
+    background-position: 39.77272727272727% 92.26190476190476%;
     width: 14px;
     height: 14px;
 }
 
 .icon-cross-14-blueDark {
     @extend .svg-common;
-    background-position: 3.977272727272727% 89.59537572254335%;
+    background-position: 43.75% 92.26190476190476%;
     width: 14px;
     height: 14px;
 }
 
 .icon-cross-14-grayDark {
     @extend .svg-common;
-    background-position: 7.954545454545454% 89.59537572254335%;
+    background-position: 92.61363636363636% 33.333333333333336%;
     width: 14px;
     height: 14px;
 }
 
 .icon-cross-14-grayDarker {
     @extend .svg-common;
-    background-position: 11.931818181818182% 89.59537572254335%;
+    background-position: 92.61363636363636% 37.5%;
     width: 14px;
     height: 14px;
 }
 
 .icon-cross-14-grayLightest {
     @extend .svg-common;
-    background-position: 15.909090909090908% 89.59537572254335%;
+    background-position: 92.61363636363636% 41.666666666666664%;
     width: 14px;
     height: 14px;
 }
 
 .icon-cross-14-white {
     @extend .svg-common;
-    background-position: 19.886363636363637% 89.59537572254335%;
+    background-position: 92.61363636363636% 45.833333333333336%;
     width: 14px;
     height: 14px;
 }
 
 .icon-cross-16 {
     @extend .svg-common;
-    background-position: 84% 43.604651162790695%;
+    background-position: 84% 44.91017964071856%;
     width: 16px;
     height: 16px;
 }
 
 .icon-cross-16-blue {
     @extend .svg-common;
-    background-position: 84% 38.95348837209303%;
+    background-position: 84% 40.119760479041915%;
     width: 16px;
     height: 16px;
 }
 
 .icon-cross-16-blueDark {
     @extend .svg-common;
-    background-position: 84% 34.30232558139535%;
+    background-position: 84% 35.32934131736527%;
     width: 16px;
     height: 16px;
 }
 
 .icon-cross-16-grayDark {
     @extend .svg-common;
-    background-position: 84% 29.651162790697676%;
+    background-position: 84% 30.538922155688624%;
     width: 16px;
     height: 16px;
 }
 
 .icon-cross-16-grayDarker {
     @extend .svg-common;
-    background-position: 84% 25%;
+    background-position: 84% 25.748502994011975%;
     width: 16px;
     height: 16px;
 }
 
 .icon-cross-16-grayLightest {
     @extend .svg-common;
-    background-position: 84% 48.25581395348837%;
+    background-position: 84% 49.70059880239521%;
     width: 16px;
     height: 16px;
 }
 
 .icon-cross-16-white {
     @extend .svg-common;
-    background-position: 84% 20.348837209302324%;
+    background-position: 84% 20.95808383233533%;
     width: 16px;
     height: 16px;
 }
 
 .icon-cross-18 {
     @extend .svg-common;
-    background-position: 79.3103448275862% 0;
+    background-position: 79.3103448275862% 16.265060240963855%;
     width: 18px;
     height: 18px;
 }
 
 .icon-cross-18-blue {
     @extend .svg-common;
-    background-position: 79.3103448275862% 5.2631578947368425%;
+    background-position: 79.3103448275862% 21.686746987951807%;
     width: 18px;
     height: 18px;
 }
 
 .icon-cross-18-blueDark {
     @extend .svg-common;
-    background-position: 79.3103448275862% 21.05263157894737%;
+    background-position: 79.3103448275862% 27.10843373493976%;
     width: 18px;
     height: 18px;
 }
 
 .icon-cross-18-grayDark {
     @extend .svg-common;
-    background-position: 79.3103448275862% 26.31578947368421%;
+    background-position: 79.3103448275862% 32.53012048192771%;
     width: 18px;
     height: 18px;
 }
 
 .icon-cross-18-grayDarker {
     @extend .svg-common;
-    background-position: 79.3103448275862% 36.8421052631579%;
+    background-position: 79.3103448275862% 37.95180722891566%;
     width: 18px;
     height: 18px;
 }
 
 .icon-cross-18-grayLightest {
     @extend .svg-common;
-    background-position: 79.3103448275862% 42.10526315789474%;
+    background-position: 79.3103448275862% 43.373493975903614%;
     width: 18px;
     height: 18px;
 }
 
 .icon-cross-18-white {
     @extend .svg-common;
-    background-position: 79.3103448275862% 47.36842105263158%;
+    background-position: 79.3103448275862% 48.795180722891565%;
     width: 18px;
     height: 18px;
 }
 
 .icon-exclamation-12 {
     @extend .svg-common;
-    background-position: 100% 65.51724137931035%;
+    background-position: 91.52542372881356% 100%;
     width: 12px;
     height: 12px;
 }
 
 .icon-exclamation-12-grayDark {
     @extend .svg-common;
-    background-position: 100% 62.06896551724138%;
+    background-position: 88.13559322033899% 100%;
     width: 12px;
     height: 12px;
 }
 
 .icon-exclamation-12-redOrangeDark {
     @extend .svg-common;
-    background-position: 100% 58.62068965517241%;
+    background-position: 84.7457627118644% 100%;
     width: 12px;
     height: 12px;
 }
 
 .icon-exclamation-12-white {
     @extend .svg-common;
-    background-position: 100% 55.172413793103445%;
+    background-position: 81.35593220338983% 100%;
     width: 12px;
     height: 12px;
 }
 
 .icon-exclamation-14 {
     @extend .svg-common;
-    background-position: 96.5909090909091% 24.277456647398843%;
+    background-position: 67.04545454545455% 73.80952380952381%;
     width: 14px;
     height: 14px;
 }
 
 .icon-exclamation-14-grayDark {
     @extend .svg-common;
-    background-position: 61.36363636363637% 61.27167630057804%;
+    background-position: 71.02272727272727% 73.80952380952381%;
     width: 14px;
     height: 14px;
 }
 
 .icon-exclamation-14-redOrangeDark {
     @extend .svg-common;
-    background-position: 51.13636363636363% 71.67630057803468%;
+    background-position: 0 83.92857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-exclamation-14-white {
     @extend .svg-common;
-    background-position: 55.11363636363637% 71.67630057803468%;
+    background-position: 3.977272727272727% 83.92857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-exclamation-36 {
     @extend .svg-common;
-    background-position: 72.72727272727273% 0;
+    background-position: 72.72727272727273% 45.859872611464965%;
     width: 36px;
     height: 36px;
 }
 
 .icon-exclamation-36-redOrange {
     @extend .svg-common;
-    background-position: 72.72727272727273% 11.11111111111111%;
+    background-position: 72.72727272727273% 34.394904458598724%;
     width: 36px;
     height: 36px;
 }
 
 .icon-exclamation-36-white {
     @extend .svg-common;
-    background-position: 72.72727272727273% 22.22222222222222%;
+    background-position: 58.18181818181818% 42.038216560509554%;
     width: 36px;
     height: 36px;
 }
 
 .icon-eye {
     @extend .svg-common;
-    background-position: 71.02272727272727% 71.67630057803468%;
+    background-position: 19.886363636363637% 83.92857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-eye-12 {
     @extend .svg-common;
-    background-position: 100% 51.724137931034484%;
+    background-position: 77.96610169491525% 100%;
     width: 12px;
     height: 12px;
 }
 
 .icon-eye-12-blueDark {
     @extend .svg-common;
-    background-position: 100% 48.275862068965516%;
+    background-position: 74.57627118644068% 100%;
     width: 12px;
     height: 12px;
 }
 
 .icon-eye-12-blueDarker {
     @extend .svg-common;
-    background-position: 100% 44.827586206896555%;
+    background-position: 71.1864406779661% 100%;
     width: 12px;
     height: 12px;
 }
 
 .icon-eye-12-grayDark {
     @extend .svg-common;
-    background-position: 100% 41.37931034482759%;
+    background-position: 67.79661016949153% 100%;
     width: 12px;
     height: 12px;
 }
 
 .icon-eye-grayDark {
     @extend .svg-common;
-    background-position: 15.909090909090908% 81.5028901734104%;
+    background-position: 39.77272727272727% 83.92857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-eye-white {
     @extend .svg-common;
-    background-position: 19.886363636363637% 81.5028901734104%;
+    background-position: 43.75% 83.92857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-fast-forward {
     @extend .svg-common;
-    background-position: 23.863636363636363% 81.5028901734104%;
+    background-position: 47.72727272727273% 83.92857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-fast-forward-grayLightest {
     @extend .svg-common;
-    background-position: 27.84090909090909% 81.5028901734104%;
+    background-position: 51.70454545454545% 83.92857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-fast-forward-white {
     @extend .svg-common;
-    background-position: 31.818181818181817% 81.5028901734104%;
+    background-position: 55.68181818181818% 83.92857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-feedback-12 {
     @extend .svg-common;
-    background-position: 100% 37.93103448275862%;
+    background-position: 64.40677966101696% 100%;
     width: 12px;
     height: 12px;
 }
 
 .icon-feedback-12-blueDark {
     @extend .svg-common;
-    background-position: 100% 34.48275862068966%;
+    background-position: 96.045197740113% 18.93579881656805%;
     width: 12px;
     height: 12px;
 }
 
 .icon-feedback-12-blueDarker {
     @extend .svg-common;
-    background-position: 96.045197740113% 38.506609195402305%;
+    background-position: 57.6271186440678% 100%;
     width: 12px;
     height: 12px;
 }
 
 .icon-feedback-12-grayDark {
     @extend .svg-common;
-    background-position: 100% 27.586206896551722%;
+    background-position: 54.23728813559322% 100%;
     width: 12px;
     height: 12px;
 }
 
 .icon-globe-48 {
     @extend .svg-common;
-    background-position: 45.283018867924525% 0;
+    background-position: 0 47.682119205298015%;
     width: 48px;
     height: 48px;
 }
 
 .icon-globe-48-blue {
     @extend .svg-common;
-    background-position: 0 15.384615384615385%;
+    background-position: 15.09433962264151% 47.682119205298015%;
     width: 48px;
     height: 48px;
 }
 
 .icon-globe-48-grayLightest {
     @extend .svg-common;
-    background-position: 15.09433962264151% 15.384615384615385%;
+    background-position: 30.18867924528302% 47.682119205298015%;
     width: 48px;
     height: 48px;
 }
 
 .icon-globe-48-white {
     @extend .svg-common;
-    background-position: 30.18867924528302% 0;
+    background-position: 45.283018867924525% 47.682119205298015%;
     width: 48px;
     height: 48px;
 }
 
 .icon-grid {
     @extend .svg-common;
-    background-position: 67.61363636363636% 81.5028901734104%;
-    width: 14px;
-    height: 14px;
+    background-position: 50.847457627118644% 100%;
+    width: 12px;
+    height: 12px;
 }
 
 .icon-grid-blue {
     @extend .svg-common;
-    background-position: 71.5909090909091% 81.5028901734104%;
-    width: 14px;
-    height: 14px;
+    background-position: 47.45762711864407% 100%;
+    width: 12px;
+    height: 12px;
+}
+
+.icon-grid-blueDark {
+    @extend .svg-common;
+    background-position: 44.067796610169495% 100%;
+    width: 12px;
+    height: 12px;
 }
 
 .icon-grid-grayLightest {
     @extend .svg-common;
-    background-position: 75.56818181818181% 81.5028901734104%;
-    width: 14px;
-    height: 14px;
+    background-position: 40.67796610169491% 100%;
+    width: 12px;
+    height: 12px;
 }
 
 .icon-grid-white {
     @extend .svg-common;
-    background-position: 79.54545454545455% 81.5028901734104%;
-    width: 14px;
-    height: 14px;
+    background-position: 37.28813559322034% 100%;
+    width: 12px;
+    height: 12px;
 }
 
 .icon-grip-12 {
     @extend .svg-common;
-    background-position: 100% 24.137931034482758%;
+    background-position: 33.898305084745765% 100%;
     width: 12px;
     height: 12px;
 }
 
 .icon-grip-12-blue {
     @extend .svg-common;
-    background-position: 100% 20.689655172413794%;
+    background-position: 30.508474576271187% 100%;
     width: 12px;
     height: 12px;
 }
 
 .icon-grip-12-grayLightest {
     @extend .svg-common;
-    background-position: 100% 17.24137931034483%;
+    background-position: 27.11864406779661% 100%;
     width: 12px;
     height: 12px;
 }
 
 .icon-grip-12-white {
     @extend .svg-common;
-    background-position: 100% 13.793103448275861%;
+    background-position: 23.728813559322035% 100%;
     width: 12px;
     height: 12px;
 }
 
 .icon-grip-20 {
     @extend .svg-common;
-    background-position: 52.02312138728324% 67.05882352941177%;
+    background-position: 52.02312138728324% 69.0909090909091%;
     width: 20px;
     height: 20px;
 }
 
 .icon-grip-20-blue {
     @extend .svg-common;
-    background-position: 62.42774566473989% 56.470588235294116%;
+    background-position: 62.42774566473989% 58.18181818181818%;
     width: 20px;
     height: 20px;
 }
 
 .icon-grip-20-grayLightest {
     @extend .svg-common;
-    background-position: 61.27167630057804% 49.411764705882355%;
+    background-position: 61.27167630057804% 50.90909090909091%;
     width: 20px;
     height: 20px;
 }
 
 .icon-grip-20-white {
     @extend .svg-common;
-    background-position: 55.49132947976879% 49.411764705882355%;
+    background-position: 55.49132947976879% 50.90909090909091%;
     width: 20px;
     height: 20px;
 }
 
 .icon-grip-36 {
     @extend .svg-common;
-    background-position: 43.63636363636363% 70.37037037037037%;
+    background-position: 72.72727272727273% 0;
     width: 36px;
     height: 36px;
 }
 
 .icon-grip-36-blue {
     @extend .svg-common;
-    background-position: 10.909090909090908% 59.25925925925926%;
+    background-position: 72.72727272727273% 11.464968152866241%;
     width: 36px;
     height: 36px;
 }
 
 .icon-grip-36-grayLightest {
     @extend .svg-common;
-    background-position: 21.818181818181817% 59.25925925925926%;
+    background-position: 72.72727272727273% 22.929936305732483%;
     width: 36px;
     height: 36px;
 }
 
 .icon-grip-36-white {
     @extend .svg-common;
-    background-position: 72.72727272727273% 33.333333333333336%;
+    background-position: 58.18181818181818% 30.573248407643312%;
     width: 36px;
     height: 36px;
 }
 
 .icon-grip-8 {
     @extend .svg-common;
-    background-position: 18.99441340782123% 96.02272727272727%;
+    background-position: 64.80446927374301% 51.461988304093566%;
     width: 8px;
     height: 8px;
 }
 
 .icon-grip-8-blue {
     @extend .svg-common;
-    background-position: 16.75977653631285% 96.02272727272727%;
+    background-position: 64.80446927374301% 49.12280701754386%;
     width: 8px;
     height: 8px;
 }
 
 .icon-grip-8-grayLightest {
     @extend .svg-common;
-    background-position: 64.80446927374301% 50%;
+    background-position: 63.687150837988824% 36.25730994152047%;
     width: 8px;
     height: 8px;
 }
 
 .icon-grip-8-white {
     @extend .svg-common;
-    background-position: 64.80446927374301% 47.72727272727273%;
+    background-position: 94.97206703910615% 95.91023391812863%;
     width: 8px;
     height: 8px;
 }
 
 .icon-head {
     @extend .svg-common;
-    background-position: 55.68181818181818% 85.54913294797687%;
+    background-position: 83.52272727272727% 88.0952380952381%;
     width: 14px;
     height: 14px;
 }
 
 .icon-head-grayLightest {
     @extend .svg-common;
-    background-position: 59.65909090909091% 85.54913294797687%;
+    background-position: 88.63636363636364% 0;
     width: 14px;
     height: 14px;
 }
 
 .icon-head-white {
     @extend .svg-common;
-    background-position: 63.63636363636363% 85.54913294797687%;
+    background-position: 88.63636363636364% 4.166666666666667%;
     width: 14px;
     height: 14px;
 }
 
 .icon-home {
     @extend .svg-common;
-    background-position: 79.3103448275862% 31.57894736842105%;
+    background-position: 79.3103448275862% 59.63855421686747%;
     width: 18px;
     height: 18px;
 }
 
 .icon-home-48 {
     @extend .svg-common;
-    background-position: 0 0;
+    background-position: 45.283018867924525% 0;
     width: 48px;
     height: 48px;
 }
 
 .icon-home-48-blue {
     @extend .svg-common;
-    background-position: 45.283018867924525% 15.384615384615385%;
+    background-position: 30.18867924528302% 31.788079470198674%;
     width: 48px;
     height: 48px;
 }
 
 .icon-home-48-grayLightest {
     @extend .svg-common;
-    background-position: 45.283018867924525% 30.76923076923077%;
+    background-position: 15.09433962264151% 31.788079470198674%;
     width: 48px;
     height: 48px;
 }
 
 .icon-home-48-white {
     @extend .svg-common;
-    background-position: 0 46.15384615384615%;
+    background-position: 0 31.788079470198674%;
     width: 48px;
     height: 48px;
 }
 
 .icon-home-blue {
     @extend .svg-common;
-    background-position: 79.3103448275862% 57.89473684210526%;
+    background-position: 10.344827586206897% 79.51807228915662%;
     width: 18px;
     height: 18px;
 }
 
 .icon-home-grayLightest {
     @extend .svg-common;
-    background-position: 79.3103448275862% 63.1578947368421%;
+    background-position: 15.517241379310345% 79.51807228915662%;
     width: 18px;
     height: 18px;
 }
 
 .icon-home-white {
     @extend .svg-common;
-    background-position: 79.3103448275862% 68.42105263157895%;
+    background-position: 20.689655172413794% 79.51807228915662%;
     width: 18px;
     height: 18px;
 }
 
 .icon-layers {
     @extend .svg-common;
-    background-position: 88.63636363636364% 12.138728323699421%;
+    background-position: 88.63636363636364% 41.666666666666664%;
     width: 14px;
     height: 14px;
 }
 
 .icon-layers-blueDark {
     @extend .svg-common;
-    background-position: 88.63636363636364% 16.184971098265898%;
+    background-position: 88.63636363636364% 45.833333333333336%;
     width: 14px;
     height: 14px;
 }
 
 .icon-layers-grayDark {
     @extend .svg-common;
-    background-position: 88.63636363636364% 20.23121387283237%;
+    background-position: 88.63636363636364% 50%;
     width: 14px;
     height: 14px;
 }
 
 .icon-layers-grayLightest {
     @extend .svg-common;
-    background-position: 88.63636363636364% 24.277456647398843%;
+    background-position: 88.63636363636364% 54.166666666666664%;
     width: 14px;
     height: 14px;
 }
 
 .icon-layers-white {
     @extend .svg-common;
-    background-position: 88.63636363636364% 28.32369942196532%;
+    background-position: 88.63636363636364% 58.333333333333336%;
     width: 14px;
     height: 14px;
 }
 
 .icon-layout {
     @extend .svg-common;
-    background-position: 0 77.19298245614036%;
+    background-position: 25.862068965517242% 79.51807228915662%;
     width: 18px;
     height: 18px;
 }
 
 .icon-layout-48 {
     @extend .svg-common;
-    background-position: 15.09433962264151% 46.15384615384615%;
+    background-position: 30.18867924528302% 15.894039735099337%;
     width: 48px;
     height: 48px;
 }
 
 .icon-layout-48-blue {
     @extend .svg-common;
-    background-position: 30.18867924528302% 46.15384615384615%;
+    background-position: 30.18867924528302% 0;
     width: 48px;
     height: 48px;
 }
 
 .icon-layout-48-grayLightest {
     @extend .svg-common;
-    background-position: 45.283018867924525% 46.15384615384615%;
+    background-position: 15.09433962264151% 15.894039735099337%;
     width: 48px;
     height: 48px;
 }
 
 .icon-layout-48-white {
     @extend .svg-common;
-    background-position: 60.37735849056604% 0;
+    background-position: 0 15.894039735099337%;
     width: 48px;
     height: 48px;
 }
 
 .icon-layout-blue {
     @extend .svg-common;
-    background-position: 25.862068965517242% 77.19298245614036%;
+    background-position: 51.724137931034484% 79.51807228915662%;
     width: 18px;
     height: 18px;
 }
 
 .icon-layout-grayLightest {
     @extend .svg-common;
-    background-position: 31.03448275862069% 77.19298245614036%;
+    background-position: 56.89655172413793% 79.51807228915662%;
     width: 18px;
     height: 18px;
 }
 
 .icon-layout-white {
     @extend .svg-common;
-    background-position: 36.206896551724135% 77.19298245614036%;
+    background-position: 62.06896551724138% 79.51807228915662%;
     width: 18px;
     height: 18px;
 }
 
 .icon-loader-12 {
     @extend .svg-common;
-    background-position: 88.63636363636364% 60.69364161849711%;
+    background-position: 3.977272727272727% 92.26190476190476%;
     width: 14px;
     height: 14px;
 }
 
 .icon-loader-12-blueDark {
     @extend .svg-common;
-    background-position: 88.63636363636364% 64.73988439306359%;
+    background-position: 7.954545454545454% 92.26190476190476%;
     width: 14px;
     height: 14px;
 }
 
 .icon-loader-12-grayDark {
     @extend .svg-common;
-    background-position: 88.63636363636364% 68.78612716763006%;
+    background-position: 11.931818181818182% 92.26190476190476%;
     width: 14px;
     height: 14px;
 }
 
 .icon-loader-12-white {
     @extend .svg-common;
-    background-position: 88.63636363636364% 72.83236994219654%;
+    background-position: 83.52272727272727% 77.97619047619048%;
     width: 14px;
     height: 14px;
 }
 
 .icon-loader-14 {
     @extend .svg-common;
-    background-position: 88.63636363636364% 76.878612716763%;
+    background-position: 19.886363636363637% 92.26190476190476%;
     width: 14px;
     height: 14px;
 }
 
 .icon-loader-14-blueDark {
     @extend .svg-common;
-    background-position: 88.63636363636364% 80.92485549132948%;
+    background-position: 23.863636363636363% 92.26190476190476%;
     width: 14px;
     height: 14px;
 }
 
 .icon-loader-14-grayDark {
     @extend .svg-common;
-    background-position: 83.52272727272727% 75.72254335260115%;
+    background-position: 27.84090909090909% 92.26190476190476%;
     width: 14px;
     height: 14px;
 }
 
 .icon-loader-14-white {
     @extend .svg-common;
-    background-position: 0 89.59537572254335%;
+    background-position: 31.818181818181817% 92.26190476190476%;
     width: 14px;
     height: 14px;
 }
 
 .icon-loader-36 {
     @extend .svg-common;
-    background-position: 32.72727272727273% 70.37037037037037%;
+    background-position: 32.72727272727273% 61.146496815286625%;
     width: 36px;
     height: 36px;
 }
 
 .icon-loader-36-blue {
     @extend .svg-common;
-    background-position: 58.18181818181818% 40.74074074074074%;
+    background-position: 21.818181818181817% 61.146496815286625%;
     width: 36px;
     height: 36px;
 }
 
 .icon-loader-36-white {
     @extend .svg-common;
-    background-position: 58.18181818181818% 29.62962962962963%;
+    background-position: 43.63636363636363% 72.61146496815287%;
     width: 36px;
     height: 36px;
 }
 
 .icon-lock {
     @extend .svg-common;
-    background-position: 10.169491525423728% 97.1264367816092%;
+    background-position: 3.389830508474576% 100%;
     width: 12px;
     height: 12px;
 }
 
 .icon-lock-blue {
     @extend .svg-common;
-    background-position: 6.779661016949152% 97.1264367816092%;
+    background-position: 0 100%;
     width: 12px;
     height: 12px;
 }
 
 .icon-lock-blueDark {
     @extend .svg-common;
-    background-position: 3.389830508474576% 97.1264367816092%;
+    background-position: 74.57627118644068% 73.37278106508876%;
     width: 12px;
     height: 12px;
 }
 
 .icon-lock-grayDark {
     @extend .svg-common;
-    background-position: 0 97.1264367816092%;
+    background-position: 64.40677966101696% 43.19526627218935%;
     width: 12px;
     height: 12px;
 }
 
 .icon-lock-grayDarkest {
     @extend .svg-common;
-    background-position: 74.57627118644068% 71.26436781609195%;
+    background-position: 74.57627118644068% 63.905325443786985%;
     width: 12px;
     height: 12px;
 }
 
 .icon-mail {
     @extend .svg-common;
-    background-position: 35.79545454545455% 89.59537572254335%;
+    background-position: 67.61363636363636% 92.26190476190476%;
     width: 14px;
     height: 14px;
 }
 
 .icon-mail-blue {
     @extend .svg-common;
-    background-position: 39.77272727272727% 89.59537572254335%;
+    background-position: 71.5909090909091% 92.26190476190476%;
     width: 14px;
     height: 14px;
 }
 
 .icon-mail-blueDark {
     @extend .svg-common;
-    background-position: 43.75% 89.59537572254335%;
+    background-position: 75.56818181818181% 92.26190476190476%;
     width: 14px;
     height: 14px;
 }
 
 .icon-mail-grayDark {
     @extend .svg-common;
-    background-position: 47.72727272727273% 89.59537572254335%;
+    background-position: 79.54545454545455% 92.26190476190476%;
     width: 14px;
     height: 14px;
 }
 
 .icon-mail-grayLightest {
     @extend .svg-common;
-    background-position: 51.70454545454545% 89.59537572254335%;
+    background-position: 83.52272727272727% 92.26190476190476%;
     width: 14px;
     height: 14px;
 }
 
 .icon-mail-white {
     @extend .svg-common;
-    background-position: 55.68181818181818% 89.59537572254335%;
+    background-position: 87.5% 92.26190476190476%;
     width: 14px;
     height: 14px;
 }
 
 .icon-maximize-10 {
     @extend .svg-common;
-    background-position: 16.853932584269664% 100%;
+    background-position: 99.43820224719101% 70.58823529411765%;
     width: 10px;
     height: 10px;
 }
 
 .icon-maximize-10-blue {
     @extend .svg-common;
-    background-position: 19.662921348314608% 100%;
+    background-position: 99.43820224719101% 73.52941176470588%;
     width: 10px;
     height: 10px;
 }
 
 .icon-maximize-10-grayLightest {
     @extend .svg-common;
-    background-position: 99.43820224719101% 85.71428571428571%;
+    background-position: 99.43820224719101% 35.294117647058826%;
     width: 10px;
     height: 10px;
 }
 
 .icon-maximize-10-white {
     @extend .svg-common;
-    background-position: 25.280898876404493% 100%;
+    background-position: 99.43820224719101% 79.41176470588235%;
     width: 10px;
     height: 10px;
 }
 
 .icon-maximize-14 {
     @extend .svg-common;
-    background-position: 75.56818181818181% 89.59537572254335%;
+    background-position: 92.61363636363636% 16.666666666666668%;
     width: 14px;
     height: 14px;
 }
 
 .icon-maximize-14-blue {
     @extend .svg-common;
-    background-position: 79.54545454545455% 89.59537572254335%;
+    background-position: 92.61363636363636% 20.833333333333332%;
     width: 14px;
     height: 14px;
 }
 
 .icon-maximize-14-grayLightest {
     @extend .svg-common;
-    background-position: 83.52272727272727% 89.59537572254335%;
+    background-position: 92.61363636363636% 25%;
     width: 14px;
     height: 14px;
 }
 
 .icon-maximize-14-white {
     @extend .svg-common;
-    background-position: 87.5% 89.59537572254335%;
+    background-position: 92.61363636363636% 29.166666666666668%;
     width: 14px;
     height: 14px;
 }
@@ -1342,588 +1391,588 @@
 
 .icon-menu-blue {
     @extend .svg-common;
-    background-position: 84.48275862068965% 5.2631578947368425%;
+    background-position: 84.48275862068965% 5.421686746987952%;
     width: 18px;
     height: 18px;
 }
 
 .icon-menu-grayLightest {
     @extend .svg-common;
-    background-position: 84.48275862068965% 10.526315789473685%;
+    background-position: 84.48275862068965% 10.843373493975903%;
     width: 18px;
     height: 18px;
 }
 
 .icon-menu-white {
     @extend .svg-common;
-    background-position: 72.98850574712644% 66.66666666666667%;
+    background-position: 79.3103448275862% 5.421686746987952%;
     width: 18px;
     height: 18px;
 }
 
 .icon-minimize-10 {
     @extend .svg-common;
-    background-position: 28.089887640449437% 100%;
+    background-position: 99.43820224719101% 82.3529411764706%;
     width: 10px;
     height: 10px;
 }
 
 .icon-minimize-10-blue {
     @extend .svg-common;
-    background-position: 30.89887640449438% 100%;
+    background-position: 99.43820224719101% 85.29411764705883%;
     width: 10px;
     height: 10px;
 }
 
 .icon-minimize-10-grayLightest {
     @extend .svg-common;
-    background-position: 33.70786516853933% 100%;
+    background-position: 99.43820224719101% 88.23529411764706%;
     width: 10px;
     height: 10px;
 }
 
 .icon-minimize-10-white {
     @extend .svg-common;
-    background-position: 36.51685393258427% 100%;
+    background-position: 99.43820224719101% 91.17647058823529%;
     width: 10px;
     height: 10px;
 }
 
 .icon-minimize-14 {
     @extend .svg-common;
-    background-position: 92.61363636363636% 32.369942196531795%;
+    background-position: 92.61363636363636% 66.66666666666667%;
     width: 14px;
     height: 14px;
 }
 
 .icon-minimize-14-blue {
     @extend .svg-common;
-    background-position: 92.61363636363636% 36.41618497109827%;
+    background-position: 92.61363636363636% 70.83333333333333%;
     width: 14px;
     height: 14px;
 }
 
 .icon-minimize-14-grayLightest {
     @extend .svg-common;
-    background-position: 92.61363636363636% 40.46242774566474%;
+    background-position: 92.61363636363636% 75%;
     width: 14px;
     height: 14px;
 }
 
 .icon-minimize-14-white {
     @extend .svg-common;
-    background-position: 92.61363636363636% 44.50867052023121%;
+    background-position: 92.61363636363636% 79.16666666666667%;
     width: 14px;
     height: 14px;
 }
 
 .icon-minus-10 {
     @extend .svg-common;
-    background-position: 39.325842696629216% 100%;
+    background-position: 99.43820224719101% 94.11764705882354%;
     width: 10px;
     height: 10px;
 }
 
 .icon-minus-10-blue {
     @extend .svg-common;
-    background-position: 42.13483146067416% 100%;
+    background-position: 99.43820224719101% 97.05882352941177%;
     width: 10px;
     height: 10px;
 }
 
 .icon-minus-10-blueDark {
     @extend .svg-common;
-    background-position: 44.943820224719104% 100%;
+    background-position: 99.43820224719101% 100%;
     width: 10px;
     height: 10px;
 }
 
 .icon-minus-10-grayLightest {
     @extend .svg-common;
-    background-position: 47.752808988764045% 100%;
+    background-position: 64.04494382022472% 46.470588235294116%;
     width: 10px;
     height: 10px;
 }
 
 .icon-minus-10-white {
     @extend .svg-common;
-    background-position: 14.044943820224718% 100%;
+    background-position: 99.43820224719101% 67.6470588235294%;
     width: 10px;
     height: 10px;
 }
 
 .icon-minus-14 {
     @extend .svg-common;
-    background-position: 92.61363636363636% 68.78612716763006%;
+    background-position: 7.954545454545454% 96.42857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-minus-14-grayLightest {
     @extend .svg-common;
-    background-position: 92.61363636363636% 72.83236994219654%;
+    background-position: 11.931818181818182% 96.42857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-minus-14-white {
     @extend .svg-common;
-    background-position: 92.61363636363636% 76.878612716763%;
+    background-position: 15.909090909090908% 96.42857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-open {
     @extend .svg-common;
-    background-position: 92.61363636363636% 80.92485549132948%;
+    background-position: 19.886363636363637% 96.42857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-open-grayDark {
     @extend .svg-common;
-    background-position: 92.61363636363636% 84.97109826589596%;
+    background-position: 23.863636363636363% 96.42857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-open-white {
     @extend .svg-common;
-    background-position: 92.61363636363636% 89.01734104046243%;
+    background-position: 27.84090909090909% 96.42857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-paper-12 {
     @extend .svg-common;
-    background-position: 96.045197740113% 78.50775862068966%;
+    background-position: 96.045197740113% 47.338165680473374%;
     width: 12px;
     height: 12px;
 }
 
 .icon-paper-12-grayDark {
     @extend .svg-common;
-    background-position: 96.045197740113% 75.05948275862069%;
+    background-position: 96.045197740113% 43.787869822485206%;
     width: 12px;
     height: 12px;
 }
 
 .icon-paper-12-white {
     @extend .svg-common;
-    background-position: 96.045197740113% 71.61120689655172%;
+    background-position: 96.045197740113% 40.23757396449704%;
     width: 12px;
     height: 12px;
 }
 
 .icon-paper-14 {
     @extend .svg-common;
-    background-position: 11.931818181818182% 93.64161849710983%;
+    background-position: 39.77272727272727% 96.42857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-paper-14-grayDark {
     @extend .svg-common;
-    background-position: 15.909090909090908% 93.64161849710983%;
+    background-position: 43.75% 96.42857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-paper-14-white {
     @extend .svg-common;
-    background-position: 19.886363636363637% 93.64161849710983%;
+    background-position: 47.72727272727273% 96.42857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-paper-36 {
     @extend .svg-common;
-    background-position: 43.63636363636363% 59.25925925925926%;
+    background-position: 21.818181818181817% 72.61146496815287%;
     width: 36px;
     height: 36px;
 }
 
 .icon-paper-36-grayLighter {
     @extend .svg-common;
-    background-position: 21.818181818181817% 70.37037037037037%;
+    background-position: 32.72727272727273% 72.61146496815287%;
     width: 36px;
     height: 36px;
 }
 
 .icon-paper-36-white {
     @extend .svg-common;
-    background-position: 10.909090909090908% 70.37037037037037%;
+    background-position: 54.54545454545455% 61.146496815286625%;
     width: 36px;
     height: 36px;
 }
 
 .icon-pencil {
     @extend .svg-common;
-    background-position: 35.79545454545455% 93.64161849710983%;
+    background-position: 59.65909090909091% 96.42857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-pencil-12 {
     @extend .svg-common;
-    background-position: 96.045197740113% 68.16293103448277%;
+    background-position: 96.045197740113% 36.68727810650887%;
     width: 12px;
     height: 12px;
 }
 
 .icon-pencil-12-blueDark {
     @extend .svg-common;
-    background-position: 96.045197740113% 64.7146551724138%;
+    background-position: 96.045197740113% 33.13698224852071%;
     width: 12px;
     height: 12px;
 }
 
 .icon-pencil-12-blueDarker {
     @extend .svg-common;
-    background-position: 96.045197740113% 61.26637931034483%;
+    background-position: 96.045197740113% 29.58668639053254%;
     width: 12px;
     height: 12px;
 }
 
 .icon-pencil-12-grayDark {
     @extend .svg-common;
-    background-position: 96.045197740113% 57.81810344827586%;
+    background-position: 96.045197740113% 26.036390532544377%;
     width: 12px;
     height: 12px;
 }
 
 .icon-pencil-blue {
     @extend .svg-common;
-    background-position: 55.68181818181818% 93.64161849710983%;
+    background-position: 79.54545454545455% 96.42857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-pencil-blueDark {
     @extend .svg-common;
-    background-position: 59.65909090909091% 93.64161849710983%;
+    background-position: 83.52272727272727% 96.42857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-pencil-grayDark {
     @extend .svg-common;
-    background-position: 63.63636363636363% 93.64161849710983%;
+    background-position: 87.5% 96.42857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-pencil-grayLightest {
     @extend .svg-common;
-    background-position: 67.61363636363636% 93.64161849710983%;
+    background-position: 91.47727272727273% 96.42857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-pencil-white {
     @extend .svg-common;
-    background-position: 71.5909090909091% 93.64161849710983%;
+    background-position: 96.5909090909091% 0;
     width: 14px;
     height: 14px;
 }
 
 .icon-plus-10 {
     @extend .svg-common;
-    background-position: 11.235955056179776% 100%;
+    background-position: 99.43820224719101% 64.70588235294117%;
     width: 10px;
     height: 10px;
 }
 
 .icon-plus-10-blue {
     @extend .svg-common;
-    background-position: 8.426966292134832% 100%;
+    background-position: 64.6067415730337% 62.35294117647059%;
     width: 10px;
     height: 10px;
 }
 
 .icon-plus-10-blueDark {
     @extend .svg-common;
-    background-position: 5.617977528089888% 100%;
+    background-position: 99.43820224719101% 55.88235294117647%;
     width: 10px;
     height: 10px;
 }
 
 .icon-plus-10-grayLightest {
     @extend .svg-common;
-    background-position: 2.808988764044944% 100%;
+    background-position: 99.43820224719101% 58.8235294117647%;
     width: 10px;
     height: 10px;
 }
 
 .icon-plus-10-white {
     @extend .svg-common;
-    background-position: 50.561797752808985% 100%;
+    background-position: 99.43820224719101% 61.76470588235294%;
     width: 10px;
     height: 10px;
 }
 
 .icon-plus-14 {
     @extend .svg-common;
-    background-position: 96.5909090909091% 0;
+    background-position: 96.5909090909091% 4.166666666666667%;
     width: 14px;
     height: 14px;
 }
 
 .icon-plus-14-grayLightest {
     @extend .svg-common;
-    background-position: 96.5909090909091% 4.046242774566474%;
+    background-position: 75.56818181818181% 96.42857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-plus-14-white {
     @extend .svg-common;
-    background-position: 96.5909090909091% 8.092485549132949%;
+    background-position: 71.5909090909091% 96.42857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-plus-18 {
     @extend .svg-common;
-    background-position: 10.344827586206897% 77.19298245614036%;
+    background-position: 79.3103448275862% 65.06024096385542%;
     width: 18px;
     height: 18px;
 }
 
 .icon-plus-18-grayDarkest {
     @extend .svg-common;
-    background-position: 5.172413793103448% 77.19298245614036%;
+    background-position: 79.3103448275862% 54.21686746987952%;
     width: 18px;
     height: 18px;
 }
 
 .icon-plus-18-grayLightest {
     @extend .svg-common;
-    background-position: 79.3103448275862% 52.63157894736842%;
+    background-position: 67.24137931034483% 79.51807228915662%;
     width: 18px;
     height: 18px;
 }
 
 .icon-plus-18-white {
     @extend .svg-common;
-    background-position: 51.724137931034484% 77.19298245614036%;
+    background-position: 72.41379310344827% 79.51807228915662%;
     width: 18px;
     height: 18px;
 }
 
 .icon-question {
     @extend .svg-common;
-    background-position: 20.689655172413794% 77.19298245614036%;
+    background-position: 77.58620689655173% 79.51807228915662%;
     width: 18px;
     height: 18px;
 }
 
 .icon-question-grayLightest {
     @extend .svg-common;
-    background-position: 41.37931034482759% 77.19298245614036%;
+    background-position: 57.47126436781609% 68.67469879518072%;
     width: 18px;
     height: 18px;
 }
 
 .icon-question-white {
     @extend .svg-common;
-    background-position: 46.55172413793103% 77.19298245614036%;
+    background-position: 62.64367816091954% 68.67469879518072%;
     width: 18px;
     height: 18px;
 }
 
 .icon-reload-12 {
     @extend .svg-common;
-    background-position: 64.40677966101696% 40.69022988505748%;
+    background-position: 96.045197740113% 57.27958579881657%;
     width: 12px;
     height: 12px;
 }
 
 .icon-reload-12-blueDark {
     @extend .svg-common;
-    background-position: 96.045197740113% 41.954885057471266%;
+    background-position: 96.045197740113% 60.82988165680474%;
     width: 12px;
     height: 12px;
 }
 
 .icon-reload-12-grayDark {
     @extend .svg-common;
-    background-position: 96.045197740113% 45.403160919540234%;
+    background-position: 96.045197740113% 64.3801775147929%;
     width: 12px;
     height: 12px;
 }
 
 .icon-reload-12-white {
     @extend .svg-common;
-    background-position: 96.045197740113% 48.8514367816092%;
+    background-position: 96.045197740113% 67.93047337278107%;
     width: 12px;
     height: 12px;
 }
 
 .icon-reload-14 {
     @extend .svg-common;
-    background-position: 79.54545454545455% 93.64161849710983%;
+    background-position: 92.61363636363636% 91.66666666666667%;
     width: 14px;
     height: 14px;
 }
 
 .icon-reload-14-blueDark {
     @extend .svg-common;
-    background-position: 75.56818181818181% 93.64161849710983%;
+    background-position: 92.61363636363636% 87.5%;
     width: 14px;
     height: 14px;
 }
 
 .icon-reload-14-grayDark {
     @extend .svg-common;
-    background-position: 51.70454545454545% 93.64161849710983%;
+    background-position: 92.61363636363636% 83.33333333333333%;
     width: 14px;
     height: 14px;
 }
 
 .icon-reload-14-white {
     @extend .svg-common;
-    background-position: 47.72727272727273% 93.64161849710983%;
+    background-position: 92.61363636363636% 62.5%;
     width: 14px;
     height: 14px;
 }
 
 .icon-reload-36 {
     @extend .svg-common;
-    background-position: 72.72727272727273% 55.55555555555556%;
+    background-position: 10.909090909090908% 72.61146496815287%;
     width: 36px;
     height: 36px;
 }
 
 .icon-reload-36-blue {
     @extend .svg-common;
-    background-position: 0 70.37037037037037%;
+    background-position: 0 72.61146496815287%;
     width: 36px;
     height: 36px;
 }
 
 .icon-reload-36-white {
     @extend .svg-common;
-    background-position: 54.54545454545455% 59.25925925925926%;
+    background-position: 72.72727272727273% 57.32484076433121%;
     width: 36px;
     height: 36px;
 }
 
 .icon-rewind {
     @extend .svg-common;
-    background-position: 3.977272727272727% 93.64161849710983%;
+    background-position: 92.61363636363636% 12.5%;
     width: 14px;
     height: 14px;
 }
 
 .icon-rewind-grayLightest {
     @extend .svg-common;
-    background-position: 0 93.64161849710983%;
+    background-position: 92.61363636363636% 8.333333333333334%;
     width: 14px;
     height: 14px;
 }
 
 .icon-rewind-white {
     @extend .svg-common;
-    background-position: 92.61363636363636% 64.73988439306359%;
+    background-position: 92.61363636363636% 4.166666666666667%;
     width: 14px;
     height: 14px;
 }
 
 .icon-ribbon {
     @extend .svg-common;
-    background-position: 92.61363636363636% 60.69364161849711%;
+    background-position: 92.61363636363636% 0;
     width: 14px;
     height: 14px;
 }
 
 .icon-ribbon-filled {
     @extend .svg-common;
-    background-position: 92.61363636363636% 56.64739884393064%;
+    background-position: 63.63636363636363% 92.26190476190476%;
     width: 14px;
     height: 14px;
 }
 
 .icon-ribbon-filled-white {
     @extend .svg-common;
-    background-position: 92.61363636363636% 52.60115606936416%;
+    background-position: 59.65909090909091% 92.26190476190476%;
     width: 14px;
     height: 14px;
 }
 
 .icon-ribbon-filled-yellow {
     @extend .svg-common;
-    background-position: 92.61363636363636% 48.554913294797686%;
+    background-position: 55.68181818181818% 92.26190476190476%;
     width: 14px;
     height: 14px;
 }
 
 .icon-ribbon-grayDark {
     @extend .svg-common;
-    background-position: 92.61363636363636% 28.32369942196532%;
+    background-position: 51.70454545454545% 92.26190476190476%;
     width: 14px;
     height: 14px;
 }
 
 .icon-ribbon-grayLightest {
     @extend .svg-common;
-    background-position: 92.61363636363636% 24.277456647398843%;
+    background-position: 47.72727272727273% 92.26190476190476%;
     width: 14px;
     height: 14px;
 }
 
 .icon-ribbon-white {
     @extend .svg-common;
-    background-position: 92.61363636363636% 20.23121387283237%;
+    background-position: 15.909090909090908% 92.26190476190476%;
     width: 14px;
     height: 14px;
 }
 
 .icon-save {
     @extend .svg-common;
-    background-position: 92.61363636363636% 16.184971098265898%;
+    background-position: 79.54545454545455% 88.0952380952381%;
     width: 14px;
     height: 14px;
 }
 
 .icon-save-grayDark {
     @extend .svg-common;
-    background-position: 71.5909090909091% 89.59537572254335%;
+    background-position: 75.56818181818181% 88.0952380952381%;
     width: 14px;
     height: 14px;
 }
 
 .icon-save-white {
     @extend .svg-common;
-    background-position: 67.61363636363636% 89.59537572254335%;
+    background-position: 71.5909090909091% 88.0952380952381%;
     width: 14px;
     height: 14px;
 }
 
 .icon-search {
     @extend .svg-common;
-    background-position: 63.63636363636363% 89.59537572254335%;
+    background-position: 67.61363636363636% 88.0952380952381%;
     width: 14px;
     height: 14px;
 }
 
 .icon-search-grayDark {
     @extend .svg-common;
-    background-position: 59.65909090909091% 89.59537572254335%;
+    background-position: 31.818181818181817% 88.0952380952381%;
     width: 14px;
     height: 14px;
 }
 
 .icon-search-white {
     @extend .svg-common;
-    background-position: 31.818181818181817% 89.59537572254335%;
+    background-position: 27.84090909090909% 88.0952380952381%;
     width: 14px;
     height: 14px;
 }
 
 .icon-shopping {
     @extend .svg-common;
-    background-position: 77.58620689655173% 77.19298245614036%;
+    background-position: 79.3103448275862% 10.843373493975903%;
     width: 18px;
     height: 18px;
 }
@@ -1937,399 +1986,399 @@
 
 .icon-shopping-48-blue {
     @extend .svg-common;
-    background-position: 30.18867924528302% 15.384615384615385%;
+    background-position: 0 0;
     width: 48px;
     height: 48px;
 }
 
 .icon-shopping-48-blueDark {
     @extend .svg-common;
-    background-position: 0 30.76923076923077%;
+    background-position: 45.283018867924525% 15.894039735099337%;
     width: 48px;
     height: 48px;
 }
 
 .icon-shopping-48-grayDarker {
     @extend .svg-common;
-    background-position: 60.37735849056604% 15.384615384615385%;
+    background-position: 45.283018867924525% 31.788079470198674%;
     width: 48px;
     height: 48px;
 }
 
 .icon-shopping-48-grayLightest {
     @extend .svg-common;
-    background-position: 30.18867924528302% 30.76923076923077%;
+    background-position: 60.37735849056604% 15.894039735099337%;
     width: 48px;
     height: 48px;
 }
 
 .icon-shopping-48-white {
     @extend .svg-common;
-    background-position: 15.09433962264151% 30.76923076923077%;
+    background-position: 60.37735849056604% 0;
     width: 48px;
     height: 48px;
 }
 
 .icon-shopping-blue {
     @extend .svg-common;
-    background-position: 79.3103448275862% 15.789473684210526%;
+    background-position: 41.37931034482759% 79.51807228915662%;
     width: 18px;
     height: 18px;
 }
 
 .icon-shopping-blueDark {
     @extend .svg-common;
-    background-position: 79.3103448275862% 10.526315789473685%;
+    background-position: 36.206896551724135% 79.51807228915662%;
     width: 18px;
     height: 18px;
 }
 
 .icon-shopping-grayDarker {
     @extend .svg-common;
-    background-position: 62.06896551724138% 77.19298245614036%;
+    background-position: 31.03448275862069% 79.51807228915662%;
     width: 18px;
     height: 18px;
 }
 
 .icon-shopping-grayLightest {
     @extend .svg-common;
-    background-position: 56.89655172413793% 77.19298245614036%;
+    background-position: 5.172413793103448% 79.51807228915662%;
     width: 18px;
     height: 18px;
 }
 
 .icon-shopping-settings {
     @extend .svg-common;
-    background-position: 0 85.54913294797687%;
+    background-position: 35.79545454545455% 83.92857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-shopping-settings-grayLightest {
     @extend .svg-common;
-    background-position: 83.52272727272727% 81.5028901734104%;
+    background-position: 31.818181818181817% 83.92857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-shopping-settings-white {
     @extend .svg-common;
-    background-position: 47.72727272727273% 81.5028901734104%;
+    background-position: 27.84090909090909% 83.92857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-shopping-white {
     @extend .svg-common;
-    background-position: 15.517241379310345% 77.19298245614036%;
+    background-position: 0 79.51807228915662%;
     width: 18px;
     height: 18px;
 }
 
 .icon-square-plus {
     @extend .svg-common;
-    background-position: 39.77272727272727% 81.5028901734104%;
+    background-position: 63.06818181818182% 73.80952380952381%;
     width: 14px;
     height: 14px;
 }
 
 .icon-square-plus-grayDark {
     @extend .svg-common;
-    background-position: 35.79545454545455% 81.5028901734104%;
+    background-position: 59.09090909090909% 73.80952380952381%;
     width: 14px;
     height: 14px;
 }
 
 .icon-square-plus-grayLightest {
     @extend .svg-common;
-    background-position: 11.931818181818182% 81.5028901734104%;
+    background-position: 55.11363636363637% 73.80952380952381%;
     width: 14px;
     height: 14px;
 }
 
 .icon-square-plus-white {
     @extend .svg-common;
-    background-position: 7.954545454545454% 81.5028901734104%;
+    background-position: 51.13636363636363% 73.80952380952381%;
     width: 14px;
     height: 14px;
 }
 
 .icon-stack {
     @extend .svg-common;
-    background-position: 3.977272727272727% 81.5028901734104%;
+    background-position: 0 92.26190476190476%;
     width: 14px;
     height: 14px;
 }
 
 .icon-stack-grayLightest {
     @extend .svg-common;
-    background-position: 0 81.5028901734104%;
+    background-position: 88.63636363636364% 87.5%;
     width: 14px;
     height: 14px;
 }
 
 .icon-stack-white {
     @extend .svg-common;
-    background-position: 96.5909090909091% 20.23121387283237%;
+    background-position: 88.63636363636364% 83.33333333333333%;
     width: 14px;
     height: 14px;
 }
 
 .icon-star {
     @extend .svg-common;
-    background-position: 96.5909090909091% 16.184971098265898%;
+    background-position: 88.63636363636364% 79.16666666666667%;
     width: 14px;
     height: 14px;
 }
 
 .icon-star-filled {
     @extend .svg-common;
-    background-position: 96.5909090909091% 12.138728323699421%;
+    background-position: 88.63636363636364% 75%;
     width: 14px;
     height: 14px;
 }
 
 .icon-star-filled-grayLighter {
     @extend .svg-common;
-    background-position: 91.47727272727273% 93.64161849710983%;
+    background-position: 88.63636363636364% 70.83333333333333%;
     width: 14px;
     height: 14px;
 }
 
 .icon-star-filled-yellow {
     @extend .svg-common;
-    background-position: 88.63636363636364% 52.60115606936416%;
+    background-position: 88.63636363636364% 66.66666666666667%;
     width: 14px;
     height: 14px;
 }
 
 .icon-star-grayLighter {
     @extend .svg-common;
-    background-position: 88.63636363636364% 48.554913294797686%;
+    background-position: 47.72727272727273% 88.0952380952381%;
     width: 14px;
     height: 14px;
 }
 
 .icon-star-half-filled {
     @extend .svg-common;
-    background-position: 88.63636363636364% 44.50867052023121%;
+    background-position: 43.75% 88.0952380952381%;
     width: 14px;
     height: 14px;
 }
 
 .icon-star-half-filled-grayLighter {
     @extend .svg-common;
-    background-position: 88.63636363636364% 40.46242774566474%;
+    background-position: 39.77272727272727% 88.0952380952381%;
     width: 14px;
     height: 14px;
 }
 
 .icon-star-half-filled-yellow {
     @extend .svg-common;
-    background-position: 88.63636363636364% 36.41618497109827%;
+    background-position: 35.79545454545455% 88.0952380952381%;
     width: 14px;
     height: 14px;
 }
 
 .icon-star-halved {
     @extend .svg-common;
-    background-position: 88.85793871866295% 32.369942196531795%;
+    background-position: 63.50974930362117% 28.571428571428573%;
     width: 7px;
     height: 14px;
 }
 
 .icon-star-halved-grayLighter {
     @extend .svg-common;
-    background-position: 86.90807799442896% 32.369942196531795%;
+    background-position: 63.50974930362117% 39.285714285714285%;
     width: 7px;
     height: 14px;
 }
 
 .icon-star-halved-yellow {
     @extend .svg-common;
-    background-position: 63.50974930362117% 27.745664739884393%;
+    background-position: 63.50974930362117% 32.73809523809524%;
     width: 7px;
     height: 14px;
 }
 
 .icon-star-yellow {
     @extend .svg-common;
-    background-position: 31.818181818181817% 85.54913294797687%;
+    background-position: 35.79545454545455% 96.42857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-thumbs-up-12 {
     @extend .svg-common;
-    background-position: 100% 75.86206896551724%;
+    background-position: 100% 3.5502958579881656%;
     width: 12px;
     height: 12px;
 }
 
 .icon-thumbs-up-12-blueDark {
     @extend .svg-common;
-    background-position: 100% 72.41379310344827%;
+    background-position: 100% 0;
     width: 12px;
     height: 12px;
 }
 
 .icon-thumbs-up-12-blueDarker {
     @extend .svg-common;
-    background-position: 100% 68.96551724137932%;
+    background-position: 94.91525423728814% 100%;
     width: 12px;
     height: 12px;
 }
 
 .icon-thumbs-up-12-grayDark {
     @extend .svg-common;
-    background-position: 100% 31.03448275862069%;
+    background-position: 61.016949152542374% 100%;
     width: 12px;
     height: 12px;
 }
 
 .icon-thumbs-up-12-greenDark {
     @extend .svg-common;
-    background-position: 100% 10.344827586206897%;
+    background-position: 20.338983050847457% 100%;
     width: 12px;
     height: 12px;
 }
 
 .icon-thumbs-up-12-white {
     @extend .svg-common;
-    background-position: 100% 6.896551724137931%;
+    background-position: 16.949152542372882% 100%;
     width: 12px;
     height: 12px;
 }
 
 .icon-thumbs-up-14 {
     @extend .svg-common;
-    background-position: 27.84090909090909% 85.54913294797687%;
+    background-position: 92.61363636363636% 50%;
     width: 14px;
     height: 14px;
 }
 
 .icon-thumbs-up-14-grayDark {
     @extend .svg-common;
-    background-position: 23.863636363636363% 85.54913294797687%;
+    background-position: 0 88.0952380952381%;
     width: 14px;
     height: 14px;
 }
 
 .icon-thumbs-up-14-greenDark {
     @extend .svg-common;
-    background-position: 19.886363636363637% 85.54913294797687%;
+    background-position: 83.52272727272727% 83.92857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-thumbs-up-14-white {
     @extend .svg-common;
-    background-position: 92.61363636363636% 0;
+    background-position: 79.54545454545455% 83.92857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-thumbs-up-36 {
     @extend .svg-common;
-    background-position: 72.72727272727273% 44.44444444444444%;
+    background-position: 43.63636363636363% 61.146496815286625%;
     width: 36px;
     height: 36px;
 }
 
 .icon-thumbs-up-36-green {
     @extend .svg-common;
-    background-position: 0 59.25925925925926%;
+    background-position: 0 61.146496815286625%;
     width: 36px;
     height: 36px;
 }
 
 .icon-thumbs-up-36-white {
     @extend .svg-common;
-    background-position: 32.72727272727273% 59.25925925925926%;
+    background-position: 10.909090909090908% 61.146496815286625%;
     width: 36px;
     height: 36px;
 }
 
 .icon-trash {
     @extend .svg-common;
-    background-position: 23.863636363636363% 93.64161849710983%;
+    background-position: 61.36363636363637% 63.095238095238095%;
     width: 14px;
     height: 14px;
 }
 
 .icon-trash-12 {
     @extend .svg-common;
-    background-position: 71.1864406779661% 62.06896551724138%;
+    background-position: 96.045197740113% 84.97248520710059%;
     width: 12px;
     height: 12px;
 }
 
 .icon-trash-12-blueDark {
     @extend .svg-common;
-    background-position: 67.79661016949153% 62.06896551724138%;
+    background-position: 96.045197740113% 81.42218934911243%;
     width: 12px;
     height: 12px;
 }
 
 .icon-trash-12-blueDarker {
     @extend .svg-common;
-    background-position: 77.96610169491525% 72.41379310344827%;
+    background-position: 96.045197740113% 77.87189349112427%;
     width: 12px;
     height: 12px;
 }
 
 .icon-trash-12-grayDark {
     @extend .svg-common;
-    background-position: 96.045197740113% 92.30086206896551%;
+    background-position: 96.045197740113% 74.3215976331361%;
     width: 12px;
     height: 12px;
 }
 
 .icon-trash-blue {
     @extend .svg-common;
-    background-position: 7.954545454545454% 93.64161849710983%;
+    background-position: 67.61363636363636% 96.42857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-trash-grayDark {
     @extend .svg-common;
-    background-position: 92.61363636363636% 12.138728323699421%;
+    background-position: 63.63636363636363% 96.42857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-trash-grayLightest {
     @extend .svg-common;
-    background-position: 92.61363636363636% 8.092485549132949%;
+    background-position: 55.68181818181818% 96.42857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-trash-white {
     @extend .svg-common;
-    background-position: 92.61363636363636% 4.046242774566474%;
+    background-position: 51.70454545454545% 96.42857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-wrench {
     @extend .svg-common;
-    background-position: 27.84090909090909% 89.59537572254335%;
+    background-position: 75.56818181818181% 83.92857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-wrench-grayLightest {
     @extend .svg-common;
-    background-position: 23.863636363636363% 89.59537572254335%;
+    background-position: 71.5909090909091% 83.92857142857143%;
     width: 14px;
     height: 14px;
 }
 
 .icon-wrench-white {
     @extend .svg-common;
-    background-position: 59.09090909090909% 71.67630057803468%;
+    background-position: 67.61363636363636% 83.92857142857143%;
     width: 14px;
     height: 14px;
 }
