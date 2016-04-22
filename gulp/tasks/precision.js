@@ -11,13 +11,12 @@ var precision = postcss.plugin('postcss-precision', function() {
   var longEmTest = /(\d+?\.\d{3,})(%|em|px)/gi;
 
   return function(style) {
-    style.eachDecl(function(decl) {
+    style.walkDecls(function(decl) {
 
 
       if (! decl.value || longEmTest.test(decl.value)) {
         // Grab array of matches.
         var matches = (decl.value + '').match(longEmTest);
-        console.log(matches);
         // We'll assume there's one
         if(matches.length === 1){
         var value = matches[0].substr(0, matches[0].length - 1);
