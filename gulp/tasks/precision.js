@@ -57,5 +57,5 @@ gulp.task('precision' , function() {
       errorHandler: notify.onError('Error: <%= error.message %>')
     }))
     .pipe(post([precision()]))
-    .pipe(gulp.dest('dist/css'));
+    .pipe(gulp.dest('dist/css'))
 });
