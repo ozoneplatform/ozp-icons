@@ -10,7 +10,7 @@ npm install -g gulp
 ## To generate CSS and sprites
 
 ```
-git clone https://github.com/ozone-development/icons.git
+git clone https://github.com/ozoneplatform/ozp-icons.git
 cd icons
 npm run build
 ```

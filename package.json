@@ -23,12 +23,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ozone-development/icons.git"
+    "url": "https://github.com/ozoneplatform/ozp-icons.git"
   },
   "author": "",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/ozone-development/icons/issues"
+    "url": "https://github.com/ozoneplatform/ozp-icons/issues"
   },
-  "homepage": "https://github.com/ozone-development/icons"
+  "homepage": "https://github.com/ozoneplatform/ozp-icons"
 }
